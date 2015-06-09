@@ -1,0 +1,462 @@
+;; (IT 'S BASICALLY AN ATTEMPT TO SOLIDIFY AND EXTEND SOME OF THE DESIGNS OF LENAT UNDER AN OPEN SOURCE
+ LICENSE)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE AN ATTEMPT.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AN_27 ?x2) (ATTEMPT_27 ?x2))
+
+;;  K
+
+	;; A SOURCE LICENSE CAN BE OPEN.
+
+;;   F
+
+;;    S
+
+		(and (SOURCE_27 ?x1) (LICENSE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (OPEN_27 ?x1))
+
+;; (-LRB- FOR INSTANCE , THERE IS ALREADY AM-UTEXAS , AND THERE ARE RELATED NON-LENAT SYSTEMS LIKE BUILDING
+ PROBLEM SOLVERS , OSCAR , ACL2 , PROLOG AND MANY OTHERS -RRB-)
+
+;; E
+
+;;  K
+
+	;; SYSTEMS CAN BE NON-LENAT.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (NON-LENAT_27 ?x1))
+
+;; (IN GENERAL IT IS AN ATTEMPT TO BUILD AN IMPROVED VERSION OF EURISKO , DESPITE BEING DISCOURAGED BY
+ YUDKOWSKY)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE AN ATTEMPT.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AN_27 ?x2) (ATTEMPT_27 ?x2))
+
+;;  K
+
+	;; A VERSION CAN BE IMPROVED.
+
+;;   F
+
+;;    S
+
+		(and (VERSION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IMPROVED_27 ?x1))
+
+;; (THE THINKING IS THAT THE AUTOMATIC PROGRAMMING THAT EURISKO AND TO A LESSER EXTENT AM DID WAS VERY
+ USEFUL)
+
+;; E
+
+;;  K
+
+	;; A THINKING CAN BE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (thinking_27 ?x1) (be_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; A PROGRAMMING CAN BE USEFUL.
+
+;;   F
+
+;;    S
+
+		(and (programming_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (USEFUL_27 ?x1))
+
+;;  K
+
+	;; A PROGRAMMING CAN BE AUTOMATIC.
+
+;;   F
+
+;;    S
+
+		(and (programming_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (AUTOMATIC_27 ?x1))
+
+;;  K
+
+	;; AN EXTENT CAN BE LESSER.
+
+;;   F
+
+;;    S
+
+		(and (EXTENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LESSER_27 ?x1))
+
+;; (COMBINED WITH MANY MATURE FRDCSA SYSTEMS , IT HAS THE POTENTIAL TO BE EXTREMELY POWERFUL)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE POTENTIAL.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (POTENTIAL_27 ?x1))
+
+;;  K
+
+	;; SYSTEMS CAN BE MATURE.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MATURE_27 ?x1))
+
+;;  K
+
+	;; A FRDCSA[PERSON??] MAY HAVE SYSTEMS.
+
+;;   F
+
+;;    S
+
+		(and (FRDCSA_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (SYSTEMS_27 ?x1))
+
+;; (I HAVE A PACKET OF INFORMATION REGARDING IAEC DESIGNS THAT I CAN RELEASE IN THE NEXT FEW DAYS IF YOU ARE
+ INTERESTED)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY HAVE A PACKET OF INFORMATION A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PACKET_27 ?x1) (of_27 ?x1 ?x2) (INFORMATION_27 ?x2) (A_27 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; A PACKET CAN BE CONSTITUTED_OF_OR_FILLED_WITH INFORMATION.
+
+;;   F
+
+;;    S
+
+		(and (PACKET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (INFORMATION_27 ?x1))
+
+;;  K
+
+	;; AN IAEC[PERSON??] MAY HAVE DESIGNS.
+
+;;   F
+
+;;    S
+
+		(and (IAEC_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (DESIGNS_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY RELEASE IN DAYS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (RELEASE_27 ?x1) (in_27 ?x1 ?x2) (DAYS_27 ?x2))
+
+;;  K
+
+	;; A PERSON CAN BE INTERESTED.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (be_27 ?e1 ?x1 ?e2) (interest_27 ?e2 ?x1))
+
+;; (IT IS VERY MUCH A HUB AND SPOKE ARCHITECTURE WITH IAEC AT THE CENTER CONNECTED TO MANY IMPORTANT
+ INTERNAL AND EXTERNAL AI SYSTEMS)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE A HUB.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (HUB_27 ?x2))
+
+;; (IT IS GOING TO BE EXTREMELY USEFUL IN A VARIETY OF CONTEXTS)
+
+;; E
+
+;;  K
+
+	;; VARIETY CAN BE CONSTITUTED_OF_OR_FILLED_WITH CONTEXTS.
+
+;;   F
+
+;;    S
+
+		(and (VARIETY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (CONTEXTS_27 ?x1))
+
+;; (I SUSPECT LENAT STILL HAS EURISKO AND IS NOT RELEASING IT , MAYBE IT IS CLASSIFIED)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY SUSPECT.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (SUSPECT_27 ?x1))
+
+;;  K
+
+	;; A LENAT[PERSON??] MAY HAVE AN EURISKO[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (LENAT_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (EURISKO_27 ?x1) (PERSON_27 ?x2))
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE CLASSIFIED.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (be_27 ?e1 ?x1 ?e2) (classify_27 ?e2 ?x1))
+
+;; (SO I DOUBT I WILL EVER SEE IT , HENCE THERE IS A FUNCTIONALITY GAP THAT IAEC INTENDS TO FILL)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY DOUBT.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (DOUBT_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY SEE A THING-REFERRED-TO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (SEE_27 ?x1) (A_27 ?x1) (THING-REFERRED-TO_27 ?x1))
+
+;;  K
+
+	;; A GAP CAN BE FUNCTIONALITY.
+
+;;   F
+
+;;    S
+
+		(and (GAP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FUNCTIONALITY_27 ?x1))
+
+;; (EURISKO NECESSITATED THE DEVELOPMENT OF CYC , AND SINCE WE HAVE \* CYC NOW , WE CAN MAKE IAEC GO OUT AND
+ KICK ASS LIKE EURISKO WAS ORIGINALLY DESIGNED TO)
+
+;; E
+
+;;  K
+
+	;; AN EURISKO[PERSON??] MAY NECESSITATE A DEVELOPMENT OF A CYC[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (EURISKO_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (necessitate_27 ?e1 ?x1 ?x2) (A_27 ?x2) (DEVELOPMENT_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (CYC_27 ?x3) (PERSON_27 ?x4))
+
+;;  K
+
+	;; A CYC[PERSON??] MAY UNDERGO A DEVELOPMENT.
+
+;;   F
+
+;;    S
+
+		(and (CYC_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (DEVELOPMENT_27 ?x1))
+
+;;  K
+
+	;; AN IAEC[PERSON??] MAY GO_OUT.
+
+;;   F
+
+;;    S
+
+		(and (IAEC_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (GO_5FOUT_27 ?x1))
+
+;; (I 'M USING ACADEMICIAN AND UNILANG TO RECORD NEW GOALS AS I READ THROUGH THE DOCUMENTATION ON AM AND
+ EURISKO IN ORDER TO AMPLIFY IT WITH TECHNOLOGIES THAT HAVE BEEN DEVELOPED IN THE INTERIM)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY USE ACADEMICIAN.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (ACADEMICIAN_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY READ THROUGH A DOCUMENTATION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (READ_27 ?x1) (through_27 ?x1 ?x2) (A_27 ?x2) (DOCUMENTATION_27 ?x2))
+
+;;  K
+
+	;; A DOCUMENTATION CAN BE ON AN AM_AND_EURISKO[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (DOCUMENTATION_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (AN_27 ?x2) (AM_5FAND_5FEURISKO_27 ?x2) (PERSON_27 ?x3))
+
+;; (IN PARTICULAR , THE EVOLUTIONARY PROGRAMMING IS GOING TO BE AUGMENTED WITH THE PERFORM ALGORITHMS KB
+ -LRB- AS EXTRACTED FROM A CORPUS OF TEXTS LIKE WIKIPEDIA USING SLOT-FILLING KBP ALGORITHMS -RRB-)
+
+;; E
+
+;;  K
+
+	;; A PROGRAMMING CAN BE EVOLUTIONARY.
+
+;;   F
+
+;;    S
+
+		(and (programming_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EVOLUTIONARY_27 ?x1))
+
+;;  K
+
+	;; A CORPUS OF TEXTS MAY USE ALGORITHMS.
+
+;;   F
+
+;;    S
+
+		(and (CORPUS_27 ?x1) (of_27 ?x1 ?x2) (TEXTS_27 ?x2) (MAY_27 ?x2) (USE_27 ?x2) (ALGORITHMS_27 ?x2))
+
+;;  K
+
+	;; A CORPUS CAN BE CONSTITUTED_OF_OR_FILLED_WITH TEXTS.
+
+;;   F
+
+;;    S
+
+		(and (CORPUS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (TEXTS_27 ?x1))
+
+;;  K
+
+	;; ALGORITHMS CAN BE SLOT-FILLING.
+
+;;   F
+
+;;    S
+
+		(and (ALGORITHMS_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SLOT-FILLING_27 ?x2))
+
+;;  K
+
+	;; A KBP[PERSON??] MAY HAVE ALGORITHMS.
+
+;;   F
+
+;;    S
+
+		(and (KBP_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (ALGORITHMS_27 ?x1))

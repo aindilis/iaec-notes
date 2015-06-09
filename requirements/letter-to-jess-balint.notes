@@ -1,0 +1,191 @@
+(
+Dear Jess,
+
+Answer Set Programming Debian packages
+
+http://www.kr.tuwien.ac.at/staff/tkren/deb.html
+
+Do you have any idea how to fix the following?
+
+andrewdo@posi.frdcsa.org's password: 
+Counting objects: 7, done.
+Delta compression using up to 12 threads.
+Compressing objects: 100% (6/6), done.
+error: inflate returned -5
+
+error: pack-objects died of signal 13
+error: failed to push some refs to 'ssh://andrewdo@posi.frdcsa.org/gitroot/releases'
+
+
+How does one get a Prolog list containing the names of all predicates
+that have been defined in user consulted files?
+
+How does one get a list of all the filenames that define a given
+predicate?
+
+Thanks,
+Andy
+
+FIXME: Fix this:
+
+
+Hey Jess,
+
+Sorry I have been out of communication, I figured you were busy with
+the trip, and my internet has been utterly terrible (I'll explain
+below).  Where was it again that you were going on this trip?  And how
+do you like it so far?  Sorry my memory is hazy, plus /wo internet
+connection difficult to review previous convos.
+
+I am really happy to hear that things seem to be going well!  I can
+only imagine the interesting places you are visiting :)
+
+Also, sorry I can't call you (tonight my time) because I ran a bunch
+of errands and stayed up way too late and got up way too early, so I'm
+going to go to bed or beginning to veg earlier tonight.  I just wanted
+to get this letter out to you and then maybe do something like the
+tutorial for a little bit while watching a movie.
+
+About the internet.  We had a couple of overage fees because last
+internet cycle I got greedy and used the cell phone internet to fix
+some software systems, and I wound up using about 8 GB and my sister
+used more than 7 so we overed our 15 GB plan.  My sister was nice
+enough to pay my bill for me, but consequently did not want me using
+the internet at all.  As a compromise what I have done is to turn
+images off and greatly restrict all of my internet usage, just to rss
+feeds, checking email, and occasionally retrieving a file.
+
+There is a second complication which prohibits online interaction.
+The silly internet, for whatever reason, requires that I connect the
+mobile hotspot, and then issue a DHCP command.  The internet then
+works correctly for around 1 minute, before I can no longer ping the
+hotspot gateway.  If left on for many minutes there are very
+occasionally several second long windows where it pings again and I
+can use it.  The only solution is to restart the hotspot, and redo the
+DHCP.  As you can imagine this is very frustrating, and, as tired as I
+was yesterday, I was just too tired to try to communicate via facebook
+messenger.  Plus it is highly annoying to not know whether your
+message has been sent and/or received.  Probably better would be to
+phone call you.  Hopefully I will get a good nights sleep and not
+become too drained by tomorrow's errands, and will be able to call
+you.  If I were to call you my Saturday night, which would be your
+morning, what time your time would you like me to call?  I know that
+11 pm my time is 10 am your time (but I'm not sure of which day it
+would be for you).
+
+----
+
+So, you had a question.  The "book" I was referring to is the AMZI
+Adventures in Prolog tutorial, which is available online as a webpage.
+I'm up to page 70 now of a pdf version of the tutorial.  It is really
+handy as I guess I'm getting closer to being able to really understand
+how to program in Prolog, as a result of the different improvements I
+have been trying to make in my systems' capabilities.  I understand
+more SQL than I did a few years ago, and also more about the semantics
+of logic programming, and memoization/tabling.  Also, I'm interested
+in knowledge bases and have some practical experience trying to
+implement them.  For instance, I just added Prolog import/export to
+KBS2.  It's funny how (despite operating on different semantics) the
+format of the FreeKBS2 KB's terms exactly coincides with Prolog's
+basic terms.  I.e. constants, vars, predicates, etc.  So I wrote some
+code in Prolog to compute the first unread page from documents that
+have been read in academician, something that I halfheartedly tried
+once and failed to accomplish using the theorem prover.
+
+In reading about Prolog ports and program control flow, I think there
+may be some analogical concept for using with higher order classical
+theorem provers.  Like you could have a port for timing out, and/or
+other ports that are dependent on data, like a timeout after a certain
+number of seconds, or a search some given depth, etc.  Parameters to a
+kind of FOL theorem proving.
+
+But for now, I'm so excited to get a better grasp of the deep
+relations between Prolog and SQL, Rules, FLora-2 and such.  So I'm
+going to finish this AMZI Adventures in Prolog tutorial.  It's neat
+because, 1) it gives an idea of how to program an Inform like
+adventure game which I assume maps abstractly into LogicMOO, 2) part
+of the tutorial involves writing an inventory manager program.  (I'm
+not being clever with how I'm implementing it because I want to
+complete the tutorial, in case modifications they propose later would
+not be compatible with more sophisticated kinds of implementation, but
+I am going to give it a lot of advanced KB like functionality).  I am
+going to use the inventory management as part of the normal form and
+personal inventory manager I'm writing.  I know from experience that
+developing an inventory manager program is non trivial to do in Prolog
+having written the SHOPS point of sale system for Squirrel Hill
+Hardware.  The AI::Prolog perl module doesn't seem to work correctly,
+but I'm sure there will be some kind of access possible, maybe even
+writing a Prolog UniLang agent with data exchanged via FreeKBS2
+interlingua.  But the beauty is you define a couple of predicates and
+then Bob's your uncle - there is so much you can do.  And then you can
+expose this to FreeKBS2.  I wrote a basic agent for monitoring a
+directory and acting on dynamic directory contents, such as for
+housekeeping a home directory.  And once KBFS works, and all the
+results are stored in the KB, it will be easier to code up advanced
+solutions.  Here is an example, I computed a report of all the first
+unread pages of all the books I was reading with Academician.  And the
+one's that I have read more of, we can assume are of greater
+importance and/or interestingness to me.  Therefore, I could associate
+an improved score with words, phrases, namedentities from the text,
+and use that in a focused crawler to obtain more materials.  That's a
+basic example.
+
+Of course, ultimately, even given the data-like nature of prolog
+logicbases, there is still too much manual coding in the drafting of
+these programs.  I tried to write that first unread page function and
+it took some doing.  Ultimately, I want the system to figure these
+things out on it's own.  And for that I'm looking to the theorem
+proving.  Specifically, there are some things to note here.
+
+First is I got through a decent amount of the ACL2 theorem prover
+documentation, and when I tire of the Prolog programming I will get
+back to it.  Basically, it implements a tiny applicative subset of
+Common Lisp.  There is no CLOS or MOP (unfortunately, as that would
+make achieving a AM/Eurisko like system so much easier), but it is
+still very expressive.  There is I think an analog to certain
+side-effect free Prolog programming, specifically where state doesn't
+go into the logicbase with assert but is communicated through the
+arguments to functions.  And here there is already the AM system for
+Prolog (am-utexas @ github).
+
+And so, I plan on having the capability for different parts of the
+system to communicate.  I have a lot of docs written up about it,
+probably not worth mentioning here.  But essentially, ACL2 is used for
+formal verification and program analysis (both static and dynamic).
+And so that will be very useful.  The idea is to have a large
+knowledge base (stored in Cyc or whatever), extracted from the
+literature, trained on Cyc's values (i.e. you use the English
+generation to render the English gloss of a concept, and then train
+NLP extractors to get those values from text, and then test on all
+your text resources and populate knowledge bases - that is more or
+less what KBP is.  And we've got some of the tools there.  And so you
+populate a KB from the literature with all sorts of facts or slots or
+attributes for different algorithm concepts.  And then what you do is
+give a formal (i.e. set theoretic pseudo code) definition of a problem
+and the system tries to prove results and use those results as input
+to the algorithm for generating the code.  And then the neat thing is,
+you use AM/Eurisko's heuristic concept search and knowledge discovery
+to make and try guesses, and the guesses are used as input to a
+genetic programming model where you evolve different solutions to the
+problem.  And basically, using this method, you evolve functions to
+try to solve different things.  The beauty is that the mutations and
+recombinations are not random, but are guided by the theorem proving
+and also the heuristics.  So it's educated guesses driving the evolution. 
+
+Then when solutions are found, a correctness proof is attempted, and
+you wind up with slots in the KB delineating Lisp functions or Prolog
+logicbases that solve particular mathematical problems defined set
+theoretically.  And these can be used as input to the system which
+tries to find solutions to different formally specified problems, the
+space of which is represented by a Cyc blackboard.
+
+Sorry for dweebing.  I know there's a lot more that I've been working
+on, I just can't remember offhand.  That's a good use case for a
+prolog program to summarize what has been worked on previously.
+
+check out pathfinder java if you haven't already, the one that can
+backtrack and try multiple things.
+
+Regards,
+Andy
+)

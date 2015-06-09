@@ -1,0 +1,1553 @@
+;; (; ; FILE FIXER -LRB- STANDS FOR `` I AM EURISKO , CYC ! '')
+
+;; E
+
+;;  K
+
+	;; A FILE[PERSON??] MAY FIX STANDS.
+
+;;   F
+
+;;    S
+
+		(and (FILE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (FIX_27 ?x1) (STANDS_27 ?x1))
+
+;; (-LRB- IAEC IS THE NEW NAME FOR AM-EURISKO-CYC-BPS -RRB- -RRB- -LRB- PERHAPS PART OF THE KEY TO THE NEXT
+ PART OF THE AI WOULD BE BUILDING IAEC , AND THEN USING IT TO MAKE CONJECTURES ABOUT NECESSARY CONDITIONS
+ OF DIFFERENT AIS)
+
+;; E
+
+;;  K
+
+	;; AN IAEC[PERSON??] OF AN AI[PERSON??] MAY BUILD AN IAEC[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (IAEC_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (of_27 ?x1) (AI_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (BUILD_27 ?x1) (AN_27 ?x1) (IAEC_27 ?x1) (PERSON_27 ?x2))
+
+;;  K
+
+	;; A KEY CAN BE TO A PART.
+
+;;   F
+
+;;    S
+
+		(and (KEY_27 ?x1) (be_27 ?e1 ?x1) (to_27 ?x1 ?x2) (part_27 ?x2))
+
+;;  K
+
+	;; CONDITIONS CAN BE CONSTITUTED_OF_OR_FILLED_WITH AIS.
+
+;;   F
+
+;;    S
+
+		(and (condition_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (AIS_27 ?x2))
+
+;;  K
+
+	;; CONDITIONS CAN BE NECESSARY.
+
+;;   F
+
+;;    S
+
+		(and (condition_27 ?x1) (be_27 ?e1 ?x1 ?x2) (NECESSARY_27 ?x2))
+
+;; (FOR INSTANCE , IT MIGHT CONJECTURE A THEOREM THAT ESTABLISHES MORE BOUNDS ON POSSIBLE AIS , LEADING TO
+ TECHNIQUES TO TRY TO FIND THEM)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY CONJECTURE A THEOREM.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (CONJECTURE_27 ?x1) (A_27 ?x1) (THEOREM_27 ?x1))
+
+;;  K
+
+	;; BOUNDS CAN BE ON AIS.
+
+;;   F
+
+;;    S
+
+		(and (bound_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (AIS_27 ?x2))
+
+;; (-LRB- IF WE KNOW THAT ANY INCREASINGLY INTELLIGENT SEQUENCE OF PROGRAMS MUST ULTIMATELY BE BOUNDED BELOW
+ IN TERMS OF LENGTH BY A MONOTONIC INCREASING FUNCTION THAT LIMITS TO INFINITY , AND FURTHER THAT SIMPLY
+ ANY SEQUENCE OF INTEGERS MUST BE SO SIMILARLY , WHAT ELSE CAN WE DEMONSTRATE)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY KNOW A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (KNOW_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; A SEQUENCE OF PROGRAMS MAY BE BOUND -ED.
+
+;;   F
+
+;;    S
+
+		(and (SEQUENCE_27 ?x1) (of_27 ?x1 ?x2) (PROGRAMS_27 ?x2) (MAY_27 ?x2) (BE_27 ?x2) (BOUND_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2))
+
+;;  K
+
+	;; A SEQUENCE CAN BE CONSTITUTED_OF_OR_FILLED_WITH PROGRAMS.
+
+;;   F
+
+;;    S
+
+		(and (SEQUENCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (PROGRAMS_27 ?x1))
+
+;;  K
+
+	;; A SEQUENCE CAN BE INTELLIGENT.
+
+;;   F
+
+;;    S
+
+		(and (SEQUENCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INTELLIGENT_27 ?x1))
+
+;;  K
+
+	;; TERMS CAN BE CONSTITUTED_OF_OR_FILLED_WITH LENGTH.
+
+;;   F
+
+;;    S
+
+		(and (TERMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (LENGTH_27 ?x1))
+
+;;  K
+
+	;; A FUNCTION CAN BE MONOTONIC.
+
+;;   F
+
+;;    S
+
+		(and (FUNCTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MONOTONIC_27 ?x1))
+
+;;  K
+
+	;; A FUNCTION CAN BE INCREASING.
+
+;;   F
+
+;;    S
+
+		(and (function_27 ?x1) (be_27 ?e1 ?x1 ?x2) (INCREASING_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY DEMONSTRATE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DEMONSTRATE_27 ?x1))
+
+;;  K
+
+	;; A SEQUENCE OF INTEGERS CAN BE SIMILARLY.
+
+;;   F
+
+;;    S
+
+		(and (sequence_27 ?x1) (of_27 ?x1 ?x2) (INTEGERS_27 ?x2) (CAN_27 ?x2) (BE_27 ?x2) (SIMILARLY_27 ?x2))
+
+;;  K
+
+	;; A SEQUENCE CAN BE CONSTITUTED_OF_OR_FILLED_WITH INTEGERS.
+
+;;   F
+
+;;    S
+
+		(and (SEQUENCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (INTEGERS_27 ?x1))
+
+;; (-LRB- WE WANT TO USE ACL2 IN ORDER TO VERIFY\/PROVE PROPERTIES OF THE FUNCTIONS THAT EURISKO AND AM ARE
+ EVOLVING , AND THAT THE PROGRAMMERS ARE ABETTING)
+
+;; E
+
+;;  K
+
+	;; AN ACL2[PERSON??] CAN BE IN ORDER.
+
+;;   F
+
+;;    S
+
+		(and (ACL2_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (in_27 ?x1) (order_27 ?x1))
+
+;;  K
+
+	;; FUNCTIONS MAY HAVE PROPERTIES.
+
+;;   F
+
+;;    S
+
+		(and (function_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (PROPERTIES_27 ?x1))
+
+;;  K
+
+	;; AN EURISKO_AND_AM[PERSON??] CAN BE EVOLVING.
+
+;;   F
+
+;;    S
+
+		(and (EURISKO_5FAND_5FAM_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (EVOLVING_27 ?x1))
+
+;;  K
+
+	;; PROGRAMMERS MAY ABET.
+
+;;   F
+
+;;    S
+
+		(and (programmer_27 ?x1) (MAY_27 ?x1) (ABET_27 ?x1))
+
+;; (JUST LIKE AM WOULD EXAMINE CONJECTURES ABOUT THE DIFFERENT OBJECTS IN ITS KB , WE WANT TO USE ACL2 TO
+ PROVE PROPERITES OF THE DIFFERENT DATA STRUCTURES -LRB- FUNCTIONS -RRB- - LIKE SAYER)
+
+;; E
+
+;;  K
+
+	;; OBJECTS CAN BE IN A KB.
+
+;;   F
+
+;;    S
+
+		(and (object_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (KB_27 ?x2))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE A KB.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (KB_27 ?x1))
+
+;;  K
+
+	;; DATA STRUCTURES MAY HAVE PROPERITES.
+
+;;   F
+
+;;    S
+
+		(and (DATA_27 ?x1) (STRUCTURES_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (PROPERITES_27 ?x1))
+
+;; (THEN USE THIS INFORMATION FOR PROGRAM SYNTHESIS)
+
+;; E
+
+;;  K
+
+	;; AN INFORMATION CAN BE FOR PROGRAM SYNTHESIS.
+
+;;   F
+
+;;    S
+
+		(and (INFORMATION_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (PROGRAM_27 ?x2) (SYNTHESIS_27 ?x2))
+
+;; (USE CYC 'S BLACKBOARD TO TRACK PROGRESS)
+
+;; E
+
+;;  K
+
+	;; A CYC[PERSON??] MAY HAVE A BLACKBOARD.
+
+;;   F
+
+;;    S
+
+		(and (CYC_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (BLACKBOARD_27 ?x1))
+
+;; (-LRB- \/ VAR\/LIB\/MYFRDCSA \/ CODEBASES\/MINOR\/IAEC \/ SYSTEMS\/EURISKO-RESOURCES\/DOC \/ OTHER\/THE
+ CYC BLACKBOARD SYSTEM V1 .0)
+
+;; E
+
+;;  K
+
+	;; VAR\/LIB\/MYFRDCSA MAY V SOME NUMBER_OR_PORTION.
+
+;;   F
+
+;;    S
+
+		(and (VAR_5C_2FLIB_5C_2FMYFRDCSA_27 ?x1) (MAY_27 ?x1) (V_27 ?x1) (SOME_27 ?x1) (NUMBER_5FOR_5FPORTION_27 ?x1))
+
+;;  K
+
+	;; A VAR\/LIB\/MYFRDCSA CAN BE \/.
+
+;;   F
+
+;;    S
+
+		(and (VAR_5C_2FLIB_5C_2FMYFRDCSA_27 ?x1) (be_27 ?e1 ?x1 ?x2) (kbs2_kif_quote_5C_2F_27 ?x2))
+
+;; (PDF -RRB- -LRB- PROGRAMMER SHOULD AID EVOLUTION BY SPECIFICALLY PROGRAMMING COMPONENTS AS NEEDED -LRB-
+ OR BY LEMMA PROVING -RRB- -RRB- -LRB- ACL2 GET ACL2-EMACS)
+
+;; E
+
+;;  K
+
+	;; A -LRB-_ACL2[PERSON??] MAY GET ACL2-EMACS.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_2Dlrb-_5Facl-NUMBER-_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (GET_27 ?x1) (ACL2-EMACS_27 ?x1))
+
+;;  K
+
+	;; PROGRAMMING COMPONENTS CAN BE NEEDED.
+
+;;   F
+
+;;    S
+
+		(and (programming_27 ?x1) (component_27 ?x1) (be_27 ?e1 ?x1 ?e2) (need_27 ?e2 ?x1))
+
+;; (THIS WAY , THE PROGRAM CAN DIRECT IT 'S EVOLUTION)
+
+;; E
+
+;;  K
+
+	;; A WAY MAY DIRECT AN EVOLUTION.
+
+;;   F
+
+;;    S
+
+		(and (WAY_27 ?x1) (MAY_27 ?x1) (DIRECT_27 ?x1) (AN_27 ?x1) (EVOLUTION_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE AN EVOLUTION.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (EVOLUTION_27 ?x1))
+
+;; (THEN WE CAN SIMULATE EVERYTHING FROM THE STRUCTURE DESCRIBE BY THE TEXT , AS INPUT TO THE PROGRAM FOR
+ TRYING TO EVOLVE PROGRAMS TO SOLVE PROBLEMS)
+
+;; E
+
+;;  K
+
+	;; EVERYTHING MAY DESCRIBE BY A TEXT.
+
+;;   F
+
+;;    S
+
+		(and (EVERYTHING_27 ?x1) (MAY_27 ?x1) (DESCRIBE_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (TEXT_27 ?x2))
+
+;;  K
+
+	;; EVERYTHING CAN BE FROM A STRUCTURE.
+
+;;   F
+
+;;    S
+
+		(and (EVERYTHING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FROM_27 ?x1) (A_27 ?x1) (STRUCTURE_27 ?x1))
+
+;;  K
+
+	;; INPUT CAN BE TO A PROGRAM.
+
+;;   F
+
+;;    S
+
+		(and (input_27 ?x1) (be_27 ?e1 ?x1) (to_27 ?x1 ?x2) (program_27 ?x2))
+
+;; (-LRB- ALSO DO FACT EXTRACTION OR RULE EXTRACTION FROM EXISTING CODE , AND ALSO EXTRACT ONTOLOGIES AND
+ SUCH FROM THE CODE CLASS STRUCTURE)
+
+;; E
+
+;;  K
+
+	;; AN ALSO[PERSON??] MAY DO FACT EXTRACTION.
+
+;;   F
+
+;;    S
+
+		(and (ALSO_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (DO_27 ?x1) (FACT_27 ?x1) (EXTRACTION_27 ?x1))
+
+;;  K
+
+	;; A CODE CAN BE EXISTING.
+
+;;   F
+
+;;    S
+
+		(and (code_27 ?x1) (be_27 ?e1 ?x1 ?x2) (EXISTING_27 ?x2))
+
+;; (ALSO , USE OUR SAYER2 OBJECT TRACING\/CACHING IN ORDER TO EXTRACT INSTANCES OF THOSE OBJECTS)
+
+;; E
+
+;;  K
+
+	;; USE MAY OBJECT.
+
+;;   F
+
+;;    S
+
+		(and (USE_27 ?x1) (MAY_27 ?x1) (OBJECT_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY HAVE SAYER2.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (SAYER2_27 ?x1))
+
+;; (-LRB- SOLUTION -LRB- IS CLOS BUILT INTO THE ACL2 RESTRICTED LISP ? -RRB-)
+
+;; E
+
+;;  K
+
+	;; CLOS CAN BE IS.
+
+;;   F
+
+;;    S
+
+		(and (clo_27 ?x1) (be_27 ?e1 ?x1 ?e2) (be_27 ?e2))
+
+;;  K
+
+	;; A LISP CAN BE ACL2.
+
+;;   F
+
+;;    S
+
+		(and (LISP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ACL2_27 ?x1))
+
+;;  K
+
+	;; A LISP CAN BE RESTRICTED.
+
+;;   F
+
+;;    S
+
+		(and (LISP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (RESTRICTED_27 ?x1))
+
+;; (-LRB- ACL2 IS A VERY SMALL SUBSET OF FULL COMMON LISP)
+
+;; E
+
+;;  K
+
+	;; AN ACL2[PERSON??] CAN BE A SUBSET OF LISP.
+
+;;   F
+
+;;    S
+
+		(and (ACL2_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (A_27 ?x1) (SUBSET_27 ?x1) (of_27 ?x1 ?x2) (LISP_27 ?x2))
+
+;;  K
+
+	;; A SUBSET CAN BE CONSTITUTED_OF_OR_FILLED_WITH LISP.
+
+;;   F
+
+;;    S
+
+		(and (SUBSET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (LISP_27 ?x1))
+
+;;  K
+
+	;; A SUBSET CAN BE SMALL.
+
+;;   F
+
+;;    S
+
+		(and (SUBSET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SMALL_27 ?x1))
+
+;;  K
+
+	;; A LISP CAN BE FULL.
+
+;;   F
+
+;;    S
+
+		(and (LISP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FULL_27 ?x1))
+
+;;  K
+
+	;; A LISP CAN BE COMMON.
+
+;;   F
+
+;;    S
+
+		(and (LISP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COMMON_27 ?x1))
+
+;; (-LRB- ACL2 IS A VERY SMALL SUBSET OF FULL COMMON LISP)
+
+;; E
+
+;;  K
+
+	;; AN ACL2[PERSON??] CAN BE A SUBSET OF LISP.
+
+;;   F
+
+;;    S
+
+		(and (ACL2_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (A_27 ?x1) (SUBSET_27 ?x1) (of_27 ?x1 ?x2) (LISP_27 ?x2))
+
+;;  K
+
+	;; A SUBSET CAN BE CONSTITUTED_OF_OR_FILLED_WITH LISP.
+
+;;   F
+
+;;    S
+
+		(and (SUBSET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (LISP_27 ?x1))
+
+;;  K
+
+	;; A SUBSET CAN BE SMALL.
+
+;;   F
+
+;;    S
+
+		(and (SUBSET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SMALL_27 ?x1))
+
+;;  K
+
+	;; A LISP CAN BE FULL.
+
+;;   F
+
+;;    S
+
+		(and (LISP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FULL_27 ?x1))
+
+;;  K
+
+	;; A LISP CAN BE COMMON.
+
+;;   F
+
+;;    S
+
+		(and (LISP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (COMMON_27 ?x1))
+
+;; (-LRB- CAN MODEL CONSTRAINTS , AND HAVE EVOLVER AND SUCH USE THOSE CONSTRAINTS ON SOLUTION)
+
+;; E
+
+;;  K
+
+	;; MODEL MAY CONSTRAINT.
+
+;;   F
+
+;;    S
+
+		(and (MODEL_27 ?x1) (MAY_27 ?x1) (CONSTRAINT_27 ?x1))
+
+;;  K
+
+	;; A MODEL CAN BE CAN.
+
+;;   F
+
+;;    S
+
+		(and (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CAN_27 ?x1))
+
+;;  K
+
+	;; CONSTRAINTS CAN BE ON SOLUTION.
+
+;;   F
+
+;;    S
+
+		(and (constraint_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (SOLUTION_27 ?x2))
+
+;; (FOR INSTANCE , WITH GENERAL GAME PLAYING)
+
+;; E
+
+;;  K
+
+	;; A GAME CAN BE GENERAL.
+
+;;   F
+
+;;    S
+
+		(and (GAME_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENERAL_27 ?x1))
+
+;; (-LRB- THE ACL2 MANUAL SAYS : -LRB- IT IS A GOOD HEURISTIC TO LOOK FOR RELATIONS BETWEEN PARTS WITH THE
+ SAME TOP-LEVEL FUNCTION SYMBOL -LRB- AS HERE , WITH SUBSETP -RRB-)
+
+;; E
+
+;;  K
+
+	;; A MANUAL MAY SAY.
+
+;;   F
+
+;;    S
+
+		(and (MANUAL_27 ?x1) (MAY_27 ?x1) (SAY_27 ?x1))
+
+;;  K
+
+	;; A MANUAL CAN BE ACL2.
+
+;;   F
+
+;;    S
+
+		(and (MANUAL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ACL2_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE A HEURISTIC.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (HEURISTIC_27 ?x2))
+
+;;  K
+
+	;; A HEURISTIC CAN BE GOOD.
+
+;;   F
+
+;;    S
+
+		(and (HEURISTIC_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GOOD_27 ?x1))
+
+;;  K
+
+	;; RELATIONS CAN BE BETWEEN PARTS.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (BETWEEN_27 ?x2) (PARTS_27 ?x2))
+
+;;  K
+
+	;; PARTS CAN BE WITH A FUNCTION SYMBOL.
+
+;;   F
+
+;;    S
+
+		(and (part_27 ?x1) (be_27 ?e1 ?x1) (with_27 ?x1 ?x2) (A_27 ?x2) (FUNCTION_27 ?x2) (SYMBOL_27 ?x2))
+
+;;  K
+
+	;; A FUNCTION SYMBOL CAN BE TOP-LEVEL.
+
+;;   F
+
+;;    S
+
+		(and (FUNCTION_27 ?x1) (SYMBOL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TOP-LEVEL_27 ?x1))
+
+;; (IT IS ALSO A GOOD HEURISTIC TO THROW OUT PARTS OF THE FORMULA THAT SEEM DISCONNECTED -LRB- AS HERE ,
+ WITH THE TERMS INVOLVING -LRB- CAR A -RRB- -RRB-)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE A HEURISTIC.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (HEURISTIC_27 ?x2))
+
+;;  K
+
+	;; A HEURISTIC CAN BE GOOD.
+
+;;   F
+
+;;    S
+
+		(and (HEURISTIC_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GOOD_27 ?x1))
+
+;;  K
+
+	;; A FORMULA MAY HAVE PARTS.
+
+;;   F
+
+;;    S
+
+		(and (FORMULA_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (PARTS_27 ?x1))
+
+;;  K
+
+	;; TERMS MAY INVOLVE.
+
+;;   F
+
+;;    S
+
+		(and (TERMS_27 ?x1) (MAY_27 ?x1) (INVOLVE_27 ?x1))
+
+;; (-LRB- THIS MAKES ME THINK THAT SOME OF THE ACL2 REWRITE SIMPLIFICATION HEURISTICS COULD BE USED WITH
+ IAEC TO AID IT 'S PROVING)
+
+;; E
+
+;;  K
+
+	;; A THING MAY MAKE.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (MAKE_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY THINK A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (think_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; SOME_NUMBER_OF THING OF AN ACL2 MAY REWRITE.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (thing_27 ?x1) (of_27 ?x1 ?x2) (ACL2_27 ?x2) (MAY_27 ?x2) (REWRITE_27 ?x2))
+
+;;  K
+
+	;; AN ACL2 MAY HAVE A THING.
+
+;;   F
+
+;;    S
+
+		(and (ACL2_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (thing_27 ?x1))
+
+;;  K
+
+	;; SIMPLIFICATION HEURISTICS MAY BE USE -ED WITH AN IAEC[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (SIMPLIFICATION_27 ?x1) (HEURISTICS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (USE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (WITH_27 ?x1) (AN_27 ?x1) (IAEC_27 ?x1) (PERSON_27 ?x2))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY PROVE.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (PROVE_27 ?x1))
+
+;; (-LRB- THIS MAKES ME THINK THAT SOME OF THE ACL2 REWRITE SIMPLIFICATION HEURISTICS COULD BE USED WITH
+ IAEC TO AID IT 'S PROVING)
+
+;; E
+
+;;  K
+
+	;; A THING MAY MAKE.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (MAKE_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY THINK A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (think_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; SOME_NUMBER_OF THING OF AN ACL2 MAY REWRITE.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (thing_27 ?x1) (of_27 ?x1 ?x2) (ACL2_27 ?x2) (MAY_27 ?x2) (REWRITE_27 ?x2))
+
+;;  K
+
+	;; AN ACL2 MAY HAVE A THING.
+
+;;   F
+
+;;    S
+
+		(and (ACL2_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (thing_27 ?x1))
+
+;;  K
+
+	;; SIMPLIFICATION HEURISTICS MAY BE USE -ED WITH AN IAEC[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (SIMPLIFICATION_27 ?x1) (HEURISTICS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (USE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (WITH_27 ?x1) (AN_27 ?x1) (IAEC_27 ?x1) (PERSON_27 ?x2))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY PROVE.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (PROVE_27 ?x1))
+
+;; (-LRB- CODIFY THE THEOREM-PROVING-TUTORIAL USING RULES , FOR INSTANCE , THERE ARE DIFFERENT `` MODES ''
+ OF CLEANING UP CHECKPOINTS - WRITE CODE TO HELP WITH EXECUTING THESE MODES)
+
+;; E
+
+;;  K
+
+	;; A THEOREM-PROVING-TUTORIAL MAY USE RULES.
+
+;;   F
+
+;;    S
+
+		(and (theorem-proving-tutorial_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (RULES_27 ?x1))
+
+;; (-LRB- HAVE A SYSTEM WHICH CAN ANSWER OUR OWN QUESTIONS ABOUT IAEC)
+
+;; E
+
+;;  K
+
+	;; A SYSTEM MAY IAE.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (MAY_27 ?x1) (IAE_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY HAVE QUESTIONS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (QUESTIONS_27 ?x1))
+
+;; (FOR INSTANCE , IN WORKING WITH ACL2 IN A VERY DETAILED WAY - I AM FORGETTING SOME OF THE DETAILS ABOUT
+ IAEC)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY FORGET SOME_NUMBER_OF THING OF DETAILS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (FORGET_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (thing_27 ?x1) (of_27 ?x1 ?x2) (detail_27 ?x2))
+
+;;  K
+
+	;; A WAY CAN BE DETAILED.
+
+;;   F
+
+;;    S
+
+		(and (way_27 ?x1) (be_27 ?e1 ?x1 ?e2) (detail_27 ?e2 ?x1))
+
+;;  K
+
+	;; DETAILS MAY HAVE A THING.
+
+;;   F
+
+;;    S
+
+		(and (DETAILS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (thing_27 ?x1))
+
+;;  K
+
+	;; DETAILS CAN BE ABOUT AN IAEC[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (detail_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ABOUT_27 ?x2) (AN_27 ?x2) (IAEC_27 ?x2) (PERSON_27 ?x3))
+
+;; (FOR INSTANCE , WHY IS IT NECESSARY FOR US TO BE ABLE TO PROVE EQUIVALENCES ABOUT THE TERMS CONSTRAINING
+ TEXT MEANING ?)
+
+;; E
+
+;;  K
+
+	;; TERMS MAY CONSTRAIN TEXT MEANING.
+
+;;   F
+
+;;    S
+
+		(and (TERMS_27 ?x1) (MAY_27 ?x1) (CONSTRAIN_27 ?x1) (TEXT_27 ?x1) (MEANING_27 ?x1))
+
+;; (IN THE IAEC AS OPPOSED TO SAYER2 CASE I UNDERSTAND , BECAUSE WE WANT TO PROVE THEOREMS ABOUT OUR DATA
+ STRUCTURES)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY UNDERSTAND.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (UNDERSTAND_27 ?x1))
+
+;;  K
+
+	;; AN IAEC CAN BE OPPOSED.
+
+;;   F
+
+;;    S
+
+		(and (IAEC_27 ?x1) (be_27 ?e1 ?x1 ?e2) (oppose_27 ?e2 ?x1))
+
+;;  K
+
+	;; A CASE CAN BE SAYER2.
+
+;;   F
+
+;;    S
+
+		(and (case_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SAYER2_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY HAVE DATA STRUCTURES.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (DATA_27 ?x1) (STRUCTURES_27 ?x1))
+
+;; (BUT YOU SEE , I HAVE FORGOTTEN WHY WE WANT TO DO THAT)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY SEE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (SEE_27 ?x1))
+
+;; (-LRB- NOTE MON APR 20 21:38:38 CDT 2015 : I AM THINKING THAT MAYBE WE WANT TO DO THAT FOR NLU ?)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY THINK A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (think_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; A THING CAN BE FOR A NLU[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (NLU_27 ?x2) (PERSON_27 ?x3))
+
+;; (SO WE CAN DO NLU UNDERSTANDING)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY DO UNDERSTANDING.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1) (UNDERSTANDING_27 ?x1))
+
+;;  K
+
+	;; A NLU[PERSON??] MAY HAVE AN UNDERSTANDING.
+
+;;   F
+
+;;    S
+
+		(and (NLU_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (UNDERSTANDING_27 ?x1))
+
+;; (ALSO SEE MIDDLE OF \/ VAR\/LIB\/MYFRDCSA \/ CODEBASES\/MINOR\/IAEC \/ REQUIREMENTS\/RELEASE-HELPER-REQ
+ -RRB- -RRB- -LRB- QUESTIONS -LRB- IS CLOS NOT IMPLEMENTABLE IN ACL2 , OR JUST HAS N'T BEEN YET ? -RRB-)
+
+;; E
+
+;;  K
+
+	;; AN ALSO[PERSON??] MAY SEE.
+
+;;   F
+
+;;    S
+
+		(and (ALSO_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SEE_27 ?x1))
+
+;;  K
+
+	;; MIDDLE OF VAR\/LIB\/MYFRDCSA MAY \/ \/ REQUIREMENTS\/RELEASE-HELPER-REQ.
+
+;;   F
+
+;;    S
+
+		(and (middle_27 ?x1) (of_27 ?x1 ?x2) (VAR_5C_2FLIB_5C_2FMYFRDCSA_27 ?x2) (MAY_27 ?x2) (kbs2_kif_quote_5C_2F_27 ?x2) (kbs2_kif_quote_5C_2F_27 ?x2) (REQUIREMENTS_5C_2FRELEASE-HELPER-REQ_27 ?x2))
+
+;;  K
+
+	;; A VAR\/LIB\/MYFRDCSA CAN BE \/.
+
+;;   F
+
+;;    S
+
+		(and (VAR_5C_2FLIB_5C_2FMYFRDCSA_27 ?x1) (be_27 ?e1 ?x1 ?x2) (kbs2_kif_quote_5C_2F_27 ?x2))
+
+;;  K
+
+	;; \/ REQUIREMENTS\/RELEASE-HELPER-REQ CAN BE CODEBASES\/MINOR\/IAEC.
+
+;;   F
+
+;;    S
+
+		(and (REQUIREMENTS_5C_2FRELEASE-HELPER-REQ_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CODEBASES_5C_2FMINOR_5C_2FIAEC_27 ?x1))
+
+;; (-LRB- ACL2 HAS NOTIONS OF A STRONG RULE , SEE IF WE CAN DISCUSS THE STRUCTURE OF ACL2 RULES IN ACL2
+ ITSELF AND PROVE THINGS LIKE THE RULE IS A STRONG VERSION -RRB- -LRB- IAEC COULD USE THE VERSIONS OF
+ LISP IMPLEMENTED IN PROLOG STORED IN THE LOGICMOO PROJECT)
+
+;; E
+
+;;  K
+
+	;; AN ACL2[PERSON??] MAY HAVE NOTIONS OF A RULE.
+
+;;   F
+
+;;    S
+
+		(and (ACL2_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (NOTIONS_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (RULE_27 ?x2))
+
+;;  K
+
+	;; A RULE CAN BE STRONG.
+
+;;   F
+
+;;    S
+
+		(and (RULE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (STRONG_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY DISCUSS A STRUCTURE OF SOME_NUMBER_OF RULES A THING-REFERRED-TO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DISCUSS_27 ?x1) (A_27 ?x1) (STRUCTURE_27 ?x1) (of_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (RULES_27 ?x2) (A_27 ?x2) (THING-REFERRED-TO_27 ?x2))
+
+;;  K
+
+	;; SOME_NUMBER_OF RULES CAN BE IN AN ACL2[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (RULES_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (ACL2_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; A RULE CAN BE A VERSION.
+
+;;   F
+
+;;    S
+
+		(and (RULE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (VERSION_27 ?x2))
+
+;;  K
+
+	;; A VERSION CAN BE STRONG.
+
+;;   F
+
+;;    S
+
+		(and (VERSION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (STRONG_27 ?x1))
+
+;;  K
+
+	;; AN IAEC[PERSON??] MAY USE VERSIONS OF LISP.
+
+;;   F
+
+;;    S
+
+		(and (IAEC_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (USE_27 ?x1) (VERSIONS_27 ?x1) (of_27 ?x1 ?x2) (LISP_27 ?x2))
+
+;;  K
+
+	;; LISP MAY BE IMPLEMENT -ED IN A PROLOG[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (LISP_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (IMPLEMENT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (PROLOG_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; A PROLOG[PERSON??] MAY BE STORE -ED IN A PROJECT.
+
+;;   F
+
+;;    S
+
+		(and (PROLOG_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (STORE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?e1 ?x2) (project_27 ?x2))
+
+;;  K
+
+	;; A LOGICMOO[PERSON??] MAY HAVE A PROJECT.
+
+;;   F
+
+;;    S
+
+		(and (LOGICMOO_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (project_27 ?x1))
+
+;; (-LRB- DEVELOP A DBFS , LIKE THIS : -LRB- INSTEAD OF AS WITH FREEKBS2 , FOR INSTANCE , IF YOU ASSERT
+ -LRB- ` P ' ` A ' -RRB- AND -LRB- ` P ' ` B ' -RRB- , THERE WILL BE TWO PREDICATES STORED IN THE KB)
+
+;; E
+
+;;  K
+
+	;; AN AND[PERSON??] CAN BE PREDICATES.
+
+;;   F
+
+;;    S
+
+		(and (and_27 ?x1 ?x2) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (PREDICATES_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY ASSERT.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (ASSERT_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF PREDICATES MAY BE STORE -ED IN A KB[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (PREDICATES_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (STORE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (KB_27 ?x2) (person_27 ?x3))
+
+;; (MAKE THIS MORE LIKE THE SAYER SYSTEM , IN THAT BOTH ` P ' ENTRIES ARE `` SYMLINKS '' OR FOREIGN KEYS
+ THAT POINT TO THE SAYER ENTRY FOR ` P ')
+
+;; E
+
+;;  K
+
+	;; A SAYER[PERSON??] MAY HAVE A SYSTEM.
+
+;;   F
+
+;;    S
+
+		(and (SAYER_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SYSTEM_27 ?x1))
+
+;;  K
+
+	;; ENTRIES CAN BE SYMLINKS.
+
+;;   F
+
+;;    S
+
+		(and (entry_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SYMLINKS_27 ?x2))
+
+;;  K
+
+	;; A P[PERSON??] MAY HAVE ENTRIES.
+
+;;   F
+
+;;    S
+
+		(and (P_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (ENTRIES_27 ?x1))
+
+;;  K
+
+	;; KEYS CAN BE FOREIGN.
+
+;;   F
+
+;;    S
+
+		(and (KEYS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FOREIGN_27 ?x1))
+
+;; (ME : HERE 'S AN IDEA CONSIDER THE SPACE OF IDEAS AND THE PATHS BETWEEN THEM THEN CONSIDER WHAT FOLLOWS
+ FROM THE DESTINATION OF EACH PATH THAT RIGHT THERE IS A SEARCH TREE THE NULL STATE - NO ASSUMPTIONS OR
+ IS THAT THE FIRST ASSUMPTION ?)
+
+;; E
+
+;;  K
+
+	;; A PERSON CAN BE AN IDEA.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AN_27 ?x2) (IDEA_27 ?x2))
+
+;;  K
+
+	;; PATHS CAN BE BETWEEN INDIVIDUAL -S.
+
+;;   F
+
+;;    S
+
+		(and (path_27 ?x1) (be_27 ?e1 ?x1 ?x2) (BETWEEN_27 ?x2) (INDIVIDUAL_27 ?x2) (kbs2_kif_quote_2DS_27 ?x2))
+
+;;  K
+
+	;; A STATE CAN BE NULL.
+
+;;   F
+
+;;    S
+
+		(and (STATE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (NULL_27 ?x1))
+
+;; (I 'VE ALWAYS WANTED TO WRITE THAT PROGRAM MEREDITH : YOU SHOULD DO IT)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY 'VE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_27VE_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY DO A THING-REFERRED-TO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1) (A_27 ?x1) (THING-REFERRED-TO_27 ?x1))
+
+;; (MEREDITH IS TYPING -RRB- -LRB- MAKE IT HARD TO TRAC IT 'S WORK :
+ HTTPS:\/\/TRAC.TORPROJECT.ORG\/PROJECTS\/TOR\/WIKI\/DOC\/TRANSPARENTPROXY -RRB- -LRB- IN ADDITION TO
+ MAPPING WEB APIS , IT SHOULD ALSO MAP PROGRAMMING LANGUAGE MODULES AND OBJECTS -RRB-)
+
+;; E
+
+;;  K
+
+	;; A FEMALE CAN BE -RRB-.
+
+;;   F
+
+;;    S
+
+		(and (FEMALE_27 ?x1) (be_27 ?e1 ?x1))
+
+;;  K
+
+	;; -RRB- CAN BE TYPING.
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (TYPING_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE WORK.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (WORK_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY MAP PROGRAMMING LANGUAGE MODULES.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (MAP_27 ?x1) (PROGRAMMING_27 ?x1) (LANGUAGE_27 ?x1) (MODULES_27 ?x1))

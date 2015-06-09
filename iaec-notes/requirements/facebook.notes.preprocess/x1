@@ -1,0 +1,15 @@
+IAEC := "I AM Eurisko, Cyc!"
+It's basically an attempt to solidify and extend some of the designs of Lenat under an open source license.
+(For instance, there is already am-utexas, and there are related non-Lenat systems like Building Problem Solvers, OSCAR, ACL2, Prolog and many others).
+In general it is an attempt to build an improved version of Eurisko, despite being discouraged by Yudkowsky.
+The thinking is that the automatic programming that Eurisko and to a lesser extent AM did was very useful.
+Combined with many mature FRDCSA systems, it has the potential to be extremely powerful.
+I have a packet of information regarding IAEC designs that I can release in the next few days if you are interested.
+It is very much a hub and spoke architecture with IAEC at the center connected to many important internal and external AI systems.
+it is going to be extremely useful in a variety of contexts.
+I suspect Lenat still has Eurisko and is not releasing it, maybe it is classified.
+So I doubt I will ever see it, hence there is a functionality gap that IAEC intends to fill.
+Eurisko necessitated the development of Cyc, and since we have *Cyc now, we can make IAEC go out and kick ass like Eurisko was originally designed to.
+I'm using academician and UniLang to record new goals as I read through the documentation on AM and Eurisko in order to amplify it with technologies that have been developed in the interim.
+In particular, the evolutionary programming is going to be augmented with the Perform Algorithms KB (as extracted from a corpus of texts like Wikipedia using slot-filling KBP algorithms).
+And so it will be able to prove program correctness, or if functionality is missing, attempt to evolve/generate it using a variety of methods, including system-implementor (which converts CS papers into systems, and we have the 43GB CS paper repo (CSX)), and also human programmers and theorem proving over program specifications as needed.

@@ -1,0 +1,321 @@
+;; (-LRB- PLEASE NOTE THIS IS NOT ALL THE REQUIREMENTS , JUST STUFF I CAME UP WITH RIGHT NOW -RRB- -LRB-
+ CREATE A GIT REPO FOR THIS AND COMMIT IT)
+
+;; E
+
+;;  K
+
+	;; A THING CAN BE REQUIREMENTS.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1 ?x2) (requirement_27 ?x2))
+
+;;  K
+
+	;; A GIT REPO CAN BE FOR A THING.
+
+;;   F
+
+;;    S
+
+		(and (GIT_27 ?x1) (REPO_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (thing_27 ?x2))
+
+;; (IT 'S ALWAYS SAYING IT 'S ENTRY-FN SAYER 20 , WHICH IS RIDICULOUS)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY SAY.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (SAY_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE A SAYER.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (SAYER_27 ?x2))
+
+;;  K
+
+	;; A SAYER CAN BE ENTRY-FN.
+
+;;   F
+
+;;    S
+
+		(and (SAYER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ENTRY-FN_27 ?x1))
+
+;; (-LRB- HAVE SOME KIND OF AUTOMATIC GIT FORKING DETECTION -RRB- -LRB- USE LARGE BASE64 NUMBERS TO ENCODE
+ THE NAMES OF DIFFERENT REPOS , HAVE EITHER A CENTRALIZED OR BITCOIN LIKE REPO OF ALL THE SYSTEMS)
+
+;; E
+
+;;  K
+
+	;; A GIT FORKING DETECTION CAN BE AUTOMATIC.
+
+;;   F
+
+;;    S
+
+		(and (GIT_27 ?x1) (FORKING_27 ?x1) (DETECTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (AUTOMATIC_27 ?x1))
+
+;;  K
+
+	;; SYSTEMS MAY HAVE REPO.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (REPO_27 ?x1))
+
+;; (-LRB- NATURALLY , LOOK INTO HOW GIT DOES THIS -RRB- -RRB- -RRB- -LRB- DEVELOP AN INTELLIGENT AGENT
+ CAPABLE OF PERFORMING TESTS ON DIFFERENT FILES AND INTERPRETTING THE RESULTS)
+
+;; E
+
+;;  K
+
+	;; A -RRB-_-RRB-[PERSON??] MAY HAVE A -RRB- -LRB-.
+
+;;   F
+
+;;    S
+
+		( (person_27 ?x1))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1))
+
+;;  K
+
+	;; AN AGENT CAN BE INTELLIGENT.
+
+;;   F
+
+;;    S
+
+		(and (AGENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INTELLIGENT_27 ?x1))
+
+;; (DEVELOP MDP BASED ALGORITHM FOR CATEGORIZING FILES BASED ON THE COSTS OF RUNNING TESTS VERSUS PERCEIVED
+ BENEFITS)
+
+;; E
+
+;;  K
+
+	;; A DEVELOP_MDP[PERSON??] MAY BE BASE -ED.
+
+;;   F
+
+;;    S
+
+		(and (DEVELOP_5FMDP_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (BASE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2))
+
+;;  K
+
+	;; BENEFITS CAN BE PERCEIVED.
+
+;;   F
+
+;;    S
+
+		(and (benefit_27 ?x1) (be_27 ?e1 ?x1 ?e2) (perceive_27 ?e2 ?x1))
+
+;; (SHOULD USE SAME CODE AS IAEC IN FACT FOR THE DELIBERATION AND PATTERN MATCHING)
+
+;; E
+
+;;  K
+
+	;; A SHOULD[PERSON??] MAY USE CODE.
+
+;;   F
+
+;;    S
+
+		(and (SHOULD_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (USE_27 ?x1) (CODE_27 ?x1))
+
+;;  K
+
+	;; AN IAEC[PERSON??] CAN BE IN FACT.
+
+;;   F
+
+;;    S
+
+		(and (IAEC_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (in_27 ?x1) (FACT_27 ?x1))
+
+;;  K
+
+	;; FACT CAN BE FOR A DELIBERATION.
+
+;;   F
+
+;;    S
+
+		(and (FACT_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (DELIBERATION_27 ?x2))
+
+;; (-LRB- WED JAN 7 15:32:50 CST 2015 ALSO HAVE IT INDEX ALL THE DIFFERENT DATASETS TO BE ABLE TO SAY THINGS
+ USING THEM)
+
+;; E
+
+;;  K
+
+	;; THINGS MAY USE INDIVIDUAL -S.
+
+;;   F
+
+;;    S
+
+		(and (THINGS_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1))
+
+;; (INTEGRATE WITH NLU , KBFS , ETC. LOOK INTO ISSUES OF WHETHER SOMETHING IS PERMANENT OR NOT)
+
+;; E
+
+;;  K
+
+	;; KBFS MAY LOOK INTO ISSUES.
+
+;;   F
+
+;;    S
+
+		(and (KBFS_27 ?x1) (MAY_27 ?x1) (LOOK_27 ?x1) (INTO_27 ?x1) (ISSUES_27 ?x1))
+
+;;  K
+
+	;; SOMETHING CAN BE PERMANENT.
+
+;;   F
+
+;;    S
+
+		(and (something_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PERMANENT_27 ?x2))
+
+;; (-LRB- SO WE CAN STORE THE RESULTS OF THE FUNCTION CALLS OF THINGS LIKE MD5SUM ON THE FILE IN SAYER , AND
+ THEN WE CAN USE THAT TO IDENTIFY THE FILE FOR KBFS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY STORE RESULTS OF FUNCTION CALLS OF THINGS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (STORE_27 ?x1) (RESULTS_27 ?x1) (of_27 ?x1 ?x2) (FUNCTION_27 ?x2) (call_27 ?x2) (of_27 ?x2 ?x3) (thing_27 ?x3))
+
+;;  K
+
+	;; A FILE CAN BE IN SAYER.
+
+;;   F
+
+;;    S
+
+		(and (FILE_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (SAYER_27 ?x2))
+
+;;  K
+
+	;; A FILE CAN BE FOR A KBFS[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (FILE_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (KBFS_27 ?x2) (person_27 ?x3))
+
+;; (-LRB- FOR THE SLOTS , FIND ALL THE SLOTS WHOSE VALUES EVALUATE TO TYPE STRING , ALSO FIND THE
+ COLLECTIONS OR GENLS THAT ALL THE OTHER SLOTS TYPES ARE -RRB- -LRB- CYC-QUERY ' -LRB- # $ AND -LRB- # $
+ ARG2ISA ?)
+
+;; E
+
+;;  K
+
+	;; TYPES CAN BE SLOTS.
+
+;;   F
+
+;;    S
+
+		(and (type_27 ?x1) (be_27 ?e1 ?x1 ?x2) (slot_27 ?x2))
+
+;; (USE THAT AS TRAINING DATA)
+
+;; E
+
+;;  K
+
+	;; A USE[PERSON??] MAY TRAININ DATA.
+
+;;   F
+
+;;    S
+
+		(and (USE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (TRAININ_27 ?x1) (DATA_27 ?x1))
+
+;; (USE THAT AS TRAINING DATA)
+
+;; E
+
+;;  K
+
+	;; A USE[PERSON??] MAY TRAININ DATA.
+
+;;   F
+
+;;    S
+
+		(and (USE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (TRAININ_27 ?x1) (DATA_27 ?x1))

@@ -1,0 +1,279 @@
+;; (BASICALLY , WE CAN USE A COMPRESSION TABLE OVER DATA ENTRIES , AND HAVE SAYER ENTRIES CONSISTING OF DATA
+ , USUALLY DEEPLY DUMPED PERL DATA STRUCTURES , AND POINTERS TO EXISTING VERSIONS OF SUBCOMPONENTS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY USE A COMPRESSION TABLE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (A_27 ?x1) (COMPRESSION_27 ?x1) (TABLE_27 ?x1))
+
+;;  K
+
+	;; SAYER ENTRIES MAY CONSIST OF DATA.
+
+;;   F
+
+;;    S
+
+		(and (SAYER_27 ?x1) (ENTRIES_27 ?x1) (MAY_27 ?x1) (CONSIST_27 ?x1) (of_27 ?x1 ?x2) (DATA_27 ?x2))
+
+;;  K
+
+	;; DATA MAY DUMP DATA STRUCTURES.
+
+;;   F
+
+;;    S
+
+		(and (DATA_27 ?x1) (MAY_27 ?x1) (DUMP_27 ?x1) (DATA_27 ?x1) (STRUCTURES_27 ?x1))
+
+;;  K
+
+	;; DATA STRUCTURES CAN BE PERL.
+
+;;   F
+
+;;    S
+
+		(and (DATA_27 ?x1) (STRUCTURES_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PERL_27 ?x1))
+
+;;  K
+
+	;; POINTERS CAN BE TO VERSIONS OF SUBCOMPONENTS.
+
+;;   F
+
+;;    S
+
+		(and (pointer_27 ?x1) (be_27 ?e1 ?x1) (to_27 ?e1 ?x2) (version_27 ?x2) (of_27 ?x2 ?x3) (subcomponent_27 ?x3))
+
+;;  K
+
+	;; VERSIONS CAN BE CONSTITUTED_OF_OR_FILLED_WITH SUBCOMPONENTS.
+
+;;   F
+
+;;    S
+
+		(and (version_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (SUBCOMPONENTS_27 ?x2))
+
+;;  K
+
+	;; VERSIONS CAN BE EXISTING.
+
+;;   F
+
+;;    S
+
+		(and (version_27 ?x1) (be_27 ?e1 ?x1 ?x2) (EXISTING_27 ?x2))
+
+;; (OR WE COULD USE DUMPERS EXISTING INDEXING MECHANISM AND LINK THEM TO EXISTING ENTRIES AS NEEDED)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY USE INDEXING MECHANISM.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (INDEXING_27 ?x1) (MECHANISM_27 ?x1))
+
+;;  K
+
+	;; AN INDEXING MECHANISM CAN BE DUMPERS.
+
+;;   F
+
+;;    S
+
+		(and (INDEXING_27 ?x1) (MECHANISM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DUMPERS_27 ?x1))
+
+;;  K
+
+	;; AN INDEXING MECHANISM CAN BE EXISTING.
+
+;;   F
+
+;;    S
+
+		(and (INDEXING_27 ?x1) (MECHANISM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EXISTING_27 ?x1))
+
+;;  K
+
+	;; ENTRIES CAN BE NEEDED.
+
+;;   F
+
+;;    S
+
+		(and (entry_27 ?x1) (be_27 ?e1 ?x1 ?e2) (need_27 ?e2 ?x1))
+
+;;  K
+
+	;; ENTRIES CAN BE EXISTING.
+
+;;   F
+
+;;    S
+
+		(and (entry_27 ?x1) (be_27 ?e1 ?x1 ?x2) (EXISTING_27 ?x2))
+
+;; (BASICALLY I HAVE TO REWRITE SAYER HERE , SO THAT IT WORKS WELL WITH THIS NOTION OF USING MULTIPLE DATA
+ POINTS PER FUNCTION)
+
+;; E
+
+;;  K
+
+	;; DATA POINTS CAN BE MULTIPLE.
+
+;;   F
+
+;;    S
+
+		(and (DATA_27 ?x1) (POINTS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MULTIPLE_27 ?x1))
+
+;; (WE SHOULD BE EVEN TO WATCH DATA FLOWING THROUGH PROGRAMS AS A RESULT)
+
+;; E
+
+;;  K
+
+	;; DATA MAY FLOW THROUGH PROGRAMS.
+
+;;   F
+
+;;    S
+
+		(and (DATA_27 ?x1) (MAY_27 ?x1) (FLOW_27 ?x1) (THROUGH_27 ?x1) (PROGRAMS_27 ?x1))
+
+;;  K
+
+	;; PROGRAMS CAN BE AS A RESULT.
+
+;;   F
+
+;;    S
+
+		(and (program_27 ?x1) (be_27 ?e1 ?x1) (as_27 ?x1 ?x2) (A_27 ?x2) (RESULT_27 ?x2))
+
+;; (COMPRESS THE DATA THAT WE RECORD)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY RECORD.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (RECORD_27 ?x1))
+
+;; (COMPRESS THE DATA THAT WE RECORD)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY RECORD.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (RECORD_27 ?x1))
+
+;; (-LRB- OKAY , IN JUST REREADING THIS , I REALIZE THAT WE SHOULD HAVE THINGS THAT WORK LIKE PATH
+ QUANTIFIERS OVER THE HISTORIES OF FUNCTIONS , AND THEN THAT GOES INTO THE LOGIC)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY REALIZE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (REALIZE_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY HAVE THINGS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (THINGS_27 ?x1))
+
+;; (BUT THE LOGICS SHOULD BE STORED IN THE SYSTEM AS WELL)
+
+;; E
+
+;;  K
+
+	;; LOGICS MAY BE STORE -ED IN A SYSTEM.
+
+;;   F
+
+;;    S
+
+		(and (LOGICS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (STORE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (SYSTEM_27 ?x2))
+
+;; (MAYBE , FLORA-2 , OR MAYBE SOME KIND OF MODAL SEMANTICS WHERE THE TRUTH VALUE DEPENDS ON THE INDEX I ,
+ WHICH INDEXES FUNCTION INVOCATIONS)
+
+;; E
+
+;;  K
+
+	;; FLORA-2 MAY INVOCATION.
+
+;;   F
+
+;;    S
+
+		(and (FLORA-2_27 ?x1) (MAY_27 ?x1) (INVOCATION_27 ?x1))
+
+;;  K
+
+	;; SEMANTICS CAN BE MODAL.
+
+;;   F
+
+;;    S
+
+		(and (SEMANTICS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MODAL_27 ?x1))
+
+;;  K
+
+	;; A TRUTH VALUE MAY DEPEND ON AN INDEX I.
+
+;;   F
+
+;;    S
+
+		(and (TRUTH_27 ?x1) (VALUE_27 ?x1) (MAY_27 ?x1) (DEPEND_27 ?x1) (on_27 ?x1 ?x2) (AN_27 ?x2) (INDEX_27 ?x2) (I_27 ?x1))
+
+;;  K
+
+	;; INDEXES MAY FUNCTION.
+
+;;   F
+
+;;    S
+
+		(and (INDEXES_27 ?x1) (MAY_27 ?x1) (FUNCTION_27 ?x1))

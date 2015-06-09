@@ -1,0 +1,846 @@
+;; (TO ME THE DISTINCTION BETWEEN A PRIORI AND A POSTERIORI KNOWLEDGE SEEMS FAKE)
+
+;; E
+
+;;  K
+
+	;; A DISTINCTION CAN BE FAKE.
+
+;;   F
+
+;;    S
+
+		(and (DISTINCTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FAKE_27 ?x1))
+
+;;  K
+
+	;; A DISTINCTION CAN BE BETWEEN A PRIORI.
+
+;;   F
+
+;;    S
+
+		(and (DISTINCTION_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (BETWEEN_27 ?x2) (A_27 ?x2) (PRIORI_27 ?x2))
+
+;;  K
+
+	;; KNOWLEDGE CAN BE POSTERIORI.
+
+;;   F
+
+;;    S
+
+		(and (KNOWLEDGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (POSTERIORI_27 ?x1))
+
+;; (FOR INSTANCE , WITH A FOUR SIDED SQUARE - HOW IS IT THAT WE COME TO UNDERSTAND WHAT A SQUARE IS IN THE
+ FIRST PLACE)
+
+;; E
+
+;;  K
+
+	;; A SQUARE CAN BE IN A PLACE.
+
+;;   F
+
+;;    S
+
+		(and (SQUARE_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (PLACE_27 ?x2))
+
+;; (IT IS THROUGH OUR SENSES)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE THROUGH SENSES.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (be_27 ?e1 ?x1 ?x2) (through_27 ?x2) (SENSES_27 ?x2))
+
+;;  K
+
+	;; PERSON -S MAY HAVE SENSES.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (SENSES_27 ?x1))
+
+;; (I FEEL AS THOUGH I 'M REVERTING ON THE POSITION I TOOK AGAINST DFONTAINE ON THIS A LONG TIME AGO)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY FEEL.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (FEEL_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY TAKE A TIME.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (TAKE_27 ?x1) (A_27 ?x1) (time_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY REVERT ON A POSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (REVERT_27 ?x1) (on_27 ?x1 ?x2) (A_27 ?x2) (position_27 ?x2))
+
+;;  K
+
+	;; DFONTAINE CAN BE ON A THING.
+
+;;   F
+
+;;    S
+
+		(and (DFONTAINE_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (thing_27 ?x2))
+
+;;  K
+
+	;; A TIME CAN BE LONG.
+
+;;   F
+
+;;    S
+
+		(and (time_27 ?x1) (be_27 ?e1 ?x1))
+
+;; (ANYWAY , SUPPOSE YOU HAVE A LEARNER , AND THEY KIND OF DEVELOP IF X THEN Y KIND OF KNOWLEDGE)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY HAVE A LEARNER.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (LEARNER_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY DEVELOP.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DEVELOP_27 ?x1))
+
+;;  K
+
+	;; A X_THEN[PERSON??] MAY Y KIND OF KNOWLEDGE.
+
+;;   F
+
+;;    S
+
+		(and (X_5FTHEN_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (Y_27 ?x1) (KIND_27 ?x1) (of_27 ?x1 ?x2) (KNOWLEDGE_27 ?x2))
+
+;; (WHEN THESE CONDITIONS OBTAIN , THIS FOLLOWS)
+
+;; E
+
+;;  K
+
+	;; A THING MAY FOLLOW.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (FOLLOW_27 ?x1))
+
+;;  K
+
+	;; CONDITIONS MAY OBTAIN.
+
+;;   F
+
+;;    S
+
+		(and (CONDITIONS_27 ?x1) (MAY_27 ?x1) (OBTAIN_27 ?x1))
+
+;; (THAT IS ELUCIDATED AND ELONGATED THROUGH EXPERIENCE TO DEVELOP ALL THE DIFFERENT MODELS OF LANGUAGE AND
+ THOUGHT)
+
+;; E
+
+;;  K
+
+	;; A THING MAY BE ELUCIDATE -ED.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (ELUCIDATE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; MODELS CAN BE SHOW LANGUAGE.
+
+;;   F
+
+;;    S
+
+		(and (model_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SHOW_27 ?x2) (LANGUAGE_27 ?x2))
+
+;; (SO , EMBODIMENT , IT WOULD SEEM , MAY BE KEY TO LEARNING)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY SEEM.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (SEEM_27 ?x1))
+
+;; (THINK HOW IAEC MIGHT DO THIS)
+
+;; E
+
+;;  K
+
+	;; AN IAEC[PERSON??] MAY DO A THING.
+
+;;   F
+
+;;    S
+
+		(and (IAEC_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (do_27 ?e1 ?x1) (thing_27 ?x1))
+
+;; (IT LOOKS FOR FEATURES IN THE INPUT , AND THEN FOR FEATURES IN THE OUTPUT , AND SEES WHETHER IT CAN
+ ESTABLISH ANY IF X THEN Y RULES , WHERE X AND Y ARE LISTS OF PREDICATES , FOR INSTANCE)
+
+;; E
+
+;;  K
+
+	;; FEATURES CAN BE IN AN INPUT.
+
+;;   F
+
+;;    S
+
+		(and (feature_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (INPUT_27 ?x2))
+
+;;  K
+
+	;; FEATURES CAN BE IN AN OUTPUT.
+
+;;   F
+
+;;    S
+
+		(and (feature_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (OUTPUT_27 ?x2))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY ESTABLISH RULES.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (ESTABLISH_27 ?x1) (RULES_27 ?x1))
+
+;;  K
+
+	;; AN IF_X_THEN_Y[PERSON??] MAY HAVE RULES.
+
+;;   F
+
+;;    S
+
+		(and (IF_5FX_5FTHEN_5FY_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (RULES_27 ?x1))
+
+;;  K
+
+	;; A X_AND_Y[PERSON??] CAN BE LISTS OF PREDICATES.
+
+;;   F
+
+;;    S
+
+		(and (X_5FAND_5FY_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (LISTS_27 ?x1) (of_27 ?x1 ?x2) (PREDICATES_27 ?x2))
+
+;;  K
+
+	;; LISTS CAN BE CONSTITUTED_OF_OR_FILLED_WITH PREDICATES.
+
+;;   F
+
+;;    S
+
+		(and (LISTS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (PREDICATES_27 ?x1))
+
+;; (IT THEN LOOKS AT IT 'S RULES , AND ATTEMPTS TO MODIFY THEM TO EXPLAIN FUTURE EVIDENCE THAT CONTRADICTS
+ THE RULES)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY LOOK AT RULES.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (LOOK_27 ?x1) (AT_27 ?x1) (RULES_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE RULES.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (RULES_27 ?x1))
+
+;; (YOU COULD USE THIS TO PREDICT FEATURES OF THE SENTENCES THAT FOLLOW ALL PRECEDING SENTENCES IN TEXTS)
+
+;; E
+
+;;  K
+
+	;; SENTENCES MAY HAVE FEATURES.
+
+;;   F
+
+;;    S
+
+		(and (SENTENCES_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (FEATURES_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF SENTENCES CAN BE IN TEXTS.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (SENTENCES_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (text_27 ?x2))
+
+;; (YOU COULD ALSO HAVE , IN ADDITION TO PROGRAMS THAT FUNCTION AS PREDICATES TO LEARN PRECONDITIONS AND
+ EFFECTS FROM , YOU COULD ALSO HAVE A SET OF PROGRAMS THAT FUNCTION AS LEARNING ALGORITHMS)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY HAVE A SET OF PROGRAMS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SET_27 ?x1) (of_27 ?x1 ?x2) (PROGRAMS_27 ?x2))
+
+;;  K
+
+	;; A PERSON MAY HAVE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1))
+
+;;  K
+
+	;; A FUNCTION CAN BE AS PREDICATES.
+
+;;   F
+
+;;    S
+
+		(and (function_27 ?x1) (be_27 ?e1 ?x1) (as_27 ?x1 ?x2) (PREDICATES_27 ?x2))
+
+;;  K
+
+	;; A SET CAN BE CONSTITUTED_OF_OR_FILLED_WITH PROGRAMS.
+
+;;   F
+
+;;    S
+
+		(and (SET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (PROGRAMS_27 ?x1))
+
+;; (FURTHERMORE , WE COULD INDEX ALL AVAILABLE FUNCTIONS THAT WE HAVE , LIKE MASTER CONTROL PROGRAM , AND
+ RUN THEM , TIMING THEM OUT AS NEEDED , RECORDING WHICH TAKE TWO LONG , ETC.)
+
+;; E
+
+;;  K
+
+	;; INDEX MAY FUNCTI A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (INDEX_27 ?x1) (MAY_27 ?x1) (FUNCTI_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; INDEX CAN BE AVAILABLE.
+
+;;   F
+
+;;    S
+
+		(and (INDEX_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (AVAILABLE_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY HAVE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1))
+
+;; (OR MAYBE , WE COULD COMPUTE A MEASURE OF USEFULNESS VERSUS RUNTIME FOR THE FUNCTIONS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY COMPUTE A MEASURE OF USEFULNESS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (COMPUTE_27 ?x1) (A_27 ?x1) (MEASURE_27 ?x1) (of_27 ?x1 ?x2) (USEFULNESS_27 ?x2))
+
+;;  K
+
+	;; A MEASURE CAN BE CONSTITUTED_OF_OR_FILLED_WITH USEFULNESS.
+
+;;   F
+
+;;    S
+
+		(and (MEASURE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x1) (USEFULNESS_27 ?x1))
+
+;;  K
+
+	;; RUNTIME CAN BE FOR FUNCTIONS.
+
+;;   F
+
+;;    S
+
+		(and (RUNTIME_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (function_27 ?x2))
+
+;; (WE WOULD HAVE TO LEARN WHICH LEARNERS WORK WELL)
+
+;; E
+
+;;  K
+
+	;; LEARNERS MAY WORK.
+
+;;   F
+
+;;    S
+
+		(and (learner_27 ?x1) (MAY_27 ?x1) (WORK_27 ?x1))
+
+;; (ALSO , WE CONTROL SOME ACTIONS THAT CAN BE PERFORMED ON THE WORLD , WE CAN LEARN PRECONDITIONS , ACTION
+ , POSTCONDITIONS RULES , AND USE THIS TO EXPERIMENT IN CONTROLLED SETTINGS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY LEARN PRECONDITIONS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (LEARN_27 ?x1) (PRECONDITIONS_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY CONTROL SOME_NUMBER_OF ACTIONS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (CONTROL_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (ACTIONS_27 ?x1))
+
+;;  K
+
+	;; RULES CAN BE POSTCONDITIONS.
+
+;;   F
+
+;;    S
+
+		(and (rule_27 ?x1) (be_27 ?e1 ?x1 ?x2) (postcondition_27 ?x2))
+
+;;  K
+
+	;; SETTINGS CAN BE CONTROLLED.
+
+;;   F
+
+;;    S
+
+		(and (setting_27 ?x1) (be_27 ?e1 ?x1 ?e2) (control_27 ?e2 ?x1))
+
+;; (FOR INSTANCE , AN NN COULD TRY TO LEARN A CHECKBOARD PATTERN , AND WHEN TRAINED ON IT , IT COMES OFF
+ RESEMBLING IT WITH ERRORS AROUND THE CORNERS , WELL , BY FOCUSING ON THAT INPUT , THE CHECKBOARD , WE
+ COULD WALK AWAY WITH SMALLER MARGINS OF ERROR)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY WALK_AWAY WITH MARGINS OF ERROR.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (WALK_5FAWAY_27 ?x1) (WITH_27 ?x1) (MARGINS_27 ?x1) (of_27 ?x1 ?x2) (ERROR_27 ?x2))
+
+;;  K
+
+	;; A PATTERN CAN BE CHECKBOARD.
+
+;;   F
+
+;;    S
+
+		(and (PATTERN_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CHECKBOARD_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY COME_OFF.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (COME_5FOFF_27 ?x1))
+
+;;  K
+
+	;; ERRORS CAN BE AROUND CORNERS.
+
+;;   F
+
+;;    S
+
+		(and (error_27 ?x1) (be_27 ?e1 ?x1) (around_27 ?x1 ?x2) (corner_27 ?x2))
+
+;;  K
+
+	;; MARGINS CAN BE CONSTITUTED_OF_OR_FILLED_WITH ERROR.
+
+;;   F
+
+;;    S
+
+		(and (margin_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (ERROR_27 ?x2))
+
+;;  K
+
+	;; MARGINS CAN BE SMALLER.
+
+;;   F
+
+;;    S
+
+		(and (margin_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SMALLER_27 ?x2))
+
+;; (NEED TO LOOK AT CS AS A CONTINUATION OF THIS PRECONDITION \/ POSTCONDITION FEATURES LEARNING MODEL)
+
+;; E
+
+;;  K
+
+	;; POSTCONDITION MAY FEATURE.
+
+;;   F
+
+;;    S
+
+		(and (POSTCONDITION_27 ?x1) (MAY_27 ?x1) (FEATURE_27 ?x1))
+
+;;  K
+
+	;; A POSTCONDITION CAN BE \/.
+
+;;   F
+
+;;    S
+
+		(and (POSTCONDITION_27 ?x1) (be_27 ?e1 ?x1 ?x2) (kbs2_kif_quote_5C_2F_27 ?x2))
+
+;;  K
+
+	;; A PRECONDITION MAY UNDERGO A CONTINUATION.
+
+;;   F
+
+;;    S
+
+		(and (PRECONDITION_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (CONTINUATION_27 ?x1))
+
+;; (ALL THAT IS WRITTEN , IT IS STILL PRESUMPTION)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE A PRESUMPTION.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (PRESUMPTION_27 ?x2))
+
+;;  K
+
+	;; A THING MAY BE WRITE -ED.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (WRITE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (WHEN A PROGRAMMER WRITES CODE TO SOLVE A PROBLEM , HE IS WORKING WITH MAKING THE INPUTS APPEAR TO
+ COINCIDE , AND THEN THE OUTPUTS COINCIDE WITH HIS EXPECTATIONS)
+
+;; E
+
+;;  K
+
+	;; OUTPUTS MAY COINCIDE WITH EXPECTATIONS.
+
+;;   F
+
+;;    S
+
+		(and (OUTPUTS_27 ?x1) (MAY_27 ?x1) (COINCIDE_27 ?x1) (WITH_27 ?x1) (EXPECTATIONS_27 ?x1))
+
+;;  K
+
+	;; A MALE MAY HAVE EXPECTATIONS.
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (EXPECTATIONS_27 ?x1))
+
+;; (PERHAPS , WHAT WE CAN DO , IS TO INDEX ALL KNOWN LEARNING FUNCTIONS , MAKE AN ONTOLOGY OF THEM , AND
+ HAVE THEM WORK IN THIS CASE)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY DO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1))
+
+;;  K
+
+	;; INDEX MAY BE KNOWN -ED.
+
+;;   F
+
+;;    S
+
+		(and (INDEX_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (KNOWN_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY WORK IN A CASE.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (WORK_27 ?x1) (in_27 ?x1 ?x2) (case_27 ?x2))
+
+;; (ALSO , WHEN WE ACT , WE ARE SUBJECT TO SANCTIONS IMPOSED BY OTHER AGENTS , WHICH WE PERCEIVE ACCORDING
+ TO INNATE MECHANISMS)
+
+;; E
+
+;;  K
+
+	;; PERSON -S CAN BE SUBJECT TO SANCTIONS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SUBJECT_27 ?x1) (TO_27 ?x1) (SANCTIONS_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY ACT.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (ACT_27 ?x1))
+
+;;  K
+
+	;; SANCTIONS MAY BE IMPOSE -ED BY AGENTS.
+
+;;   F
+
+;;    S
+
+		(and (SANCTIONS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (IMPOSE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (by_27 ?x1 ?x2) (agent_27 ?x2))
+
+;;  K
+
+	;; MECHANISMS CAN BE INNATE.
+
+;;   F
+
+;;    S
+
+		(and (MECHANISMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INNATE_27 ?x1))
+
+;; (SO FOR INSTANCE , YOU DO SOMETHING WRONG AND YOU ARE SUBJECTED INTENTIONALLY TO AN EXPERIENCE THAT IS
+ INTENDED TO BE DISPLEASURABLE , TO CAUSE YOU TO AVOID DOING IT IN THE FUTURE)
+
+;; E
+
+;;  K
+
+	;; SOMETHING CAN BE WRONG.
+
+;;   F
+
+;;    S
+
+		(and (something_27 ?x1) (be_27 ?e1 ?x1) (wrong_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY BE SUBJECT -ED.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SUBJECT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (WE LEARN ACCORDING TO THIS TRAINING IMPOSED ON US)
+
+;; E
+
+;;  K
+
+	;; A TRAINING MAY BE IMPOSE -ED ON PERSON -S.
+
+;;   F
+
+;;    S
+
+		(and (TRAINING_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (IMPOSE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (ON_27 ?x1) (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1))
+
+;; (SEEMS LIKE A MARKOV CHAIN BUT FOR SENTENCES , NOT WORDS)
+
+;; E
+
+;;  K
+
+	;; A SEEMS[PERSON??] MAY LIKE A CHAIN.
+
+;;   F
+
+;;    S
+
+		(and (SEEMS_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (LIKE_27 ?x1) (A_27 ?x1) (CHAIN_27 ?x1))
+
+;;  K
+
+	;; A CHAIN CAN BE MARKOV.
+
+;;   F
+
+;;    S
+
+		(and (CHAIN_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MARKOV_27 ?x1))

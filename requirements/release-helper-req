@@ -1,0 +1,165 @@
+;; README
+
+(Gather all of the requirements for KBFS here.  And then start building it.)
+
+(please note this is not all the requirements, just stuff I came
+ up with right now)
+
+(Create a git repo for this and commit it.)
+
+(some basic things
+ (Say you have: '(unilang-entry-fn "1097557")
+  (then you might want to have some way of accessing the text
+   contents of it) 
+  '(text-contents-fn (unilang-entry-fn "1097557"))
+  (see about having these as executable lisp functions as well, kinda like subl)
+  (maybe represent everything in lisp, and use that to annotate the text)
+  (have the lisp function domain and range type stored in cyc/acl2)
+
+  )
+ )
+
+(Make a solid system for storing text snippets, extend the
+ existing ones.  Make them more reliable, and fix sayer for
+ Pete's sake.  it's always saying it's entry-fn sayer 20, which
+ is ridiculous.)
+
+(Make is so that it knows provenance information, for
+ instance, (entry-fn sayer 20) should really be: 
+ (entry-fn ai.frdcsa.org sayer 20) and then it should know that
+ (entry-fn columcille.frdcsa.org sayer 1) is after 
+ (entry-fn ai.frdcsa.org sayer 20) if it's been forked from it,
+ etc.  Kind of like Mt metadata.  Keep all that provenance
+ information in the system somehow.
+ (have some kind of automatic git forking detection)
+ (use large base64 numbers to encode the names of different
+  repos, have either a centralized or bitcoin like repo of all the
+  systems.
+  (naturally, look into how git does this)
+  )
+ )
+
+(Develop an intelligent agent capable of performing tests on
+ different files and interpretting the results.  Develop MDP
+ based algorithm for categorizing files based on the costs of
+ running tests versus perceived benefits.  Also include some
+ heuristics, and pre tests.  Should be deliberative and pattern
+ matching like IAEC.  Should use same code as IAEC in fact for
+ the deliberation and pattern matching.)
+
+((Sun Dec 28 09:31:03 CST 2014) note that in using ACL2, we're proving
+ equivalences, which is useful, but at the level of tests, we might
+ not need simplification, but just some preconditions and executions -
+ it may not be necessary to prove a ton of things about the functions
+ themselves in order to extract meaningful information from the
+ function memoization.)
+
+(Make a KB about which functions have side effects, what the
+ runtimes of different functions are, etc.)
+
+(use Sayer to store function applications for [ce]lisp as well)
+
+(employ unification reasoning)
+
+(read up on defstruct, type information, etc)
+
+(defstruct function-incr
+ (
+  :definition '(lambda (m) (+ m 1))
+
+  :has-side-effects t
+
+  :nondeterministic nil
+
+  :worst-case-run-time 'Exp
+  :run-time-independent-variables (list 'm)
+
+  :average-run-time 'P
+  )
+ )
+
+(Use heuristics and machine learning to make conjectures about
+ applications of the functions)
+
+(keep in mind that versus all the possible programs and values,
+ the KB will only be keeping a small slice of that, and that there
+ is a lot of information to be had from the fact that a given
+ entry, which may contain lots of information, is in the system,
+ as opposed to not in the system.)
+
+(Wed Jan  7 15:29:06 CST 2015
+ (Sort of like prolog tabling I'm guessing?)
+ (also integrate emacs git version control with KBFS, so that I
+ can, right after editing a file, commit it with one key binding
+ or such)
+
+ )
+
+(populate these slots for common NLU functions)
+
+(look into using symbolic planner gamer or something to map out
+ choices for function application, to be surjective about
+ analysis of conjectures)
+
+(look into integrating inform system here, for storage of
+ artifacts)
+
+(Somehow constraint satisfaction and specifically BPS seems
+ relevant here.)
+
+(speculate as to the existence of sentinels that try to inhibit
+ information fusion)
+
+(okay need to have functions for adding and removing slots (think
+ metaobject protocol))
+
+(use the Cyc Ontology to populate some initial slots for items)
+(take the values for slots as inputs to a slot filler algorithm,
+ and then extract information for slots from text.
+ (I think OQA sort of does this.)
+ )
+
+
+(have a function that exports slots from the CycKB)
+
+(run slot filler on our complete text base)
+
+(record provenance of all information in KB - set up taint analysis)
+
+(solution (start up ResearchCyc and attempt to analyze the Cyc browser to
+ see if it generates slot templates easily, look at
+ function-names related to slots) (yes it does))
+
+(Use KBFS semantics to feed machine learning algorithms with the
+ relevant data.  mark up data sets.)
+
+(Wed Jan 7 15:32:50 CST 2015 also have it index all the different
+ datasets to be able to say things using them.  integrate with
+ NLU, KBFS, etc.  look into issues of whether something is
+ permanent or not.)
+
+(So we can store the results of the function calls of things like
+ md5sum on the file in sayer, and then we can use that to
+ identify the file for KBFS.)
+
+(For the slots, find all the slots whose values evaluate to type
+ string, also find the collections or genls that all the other
+ slots types are)
+
+(cyc-query '(#$and (#$arg2Isa ?X #$CharacterString) (#$arity ?X 2)) #$EverythingPSC)
+
+(message (prin1-to-string (cmh-cyc-query '("#$and"
+   ("#$arg2Isa" var-X "#$CharacterString")
+   ("#$arity" var-X "2"))
+  "#$EverythingPSC")))
+
+(Another way to go about it would be to take the values for slots
+ and use Cyc's ability to generate English.  Use that as training
+ data.)
+
+(in progress (look into the art of the metaobject protocol))
+
+(Look into how an open source antivirus engine works and use
+ similar or same code for KBFS for indexing and also for carving
+ to understand existing file data that may be partial.)
+

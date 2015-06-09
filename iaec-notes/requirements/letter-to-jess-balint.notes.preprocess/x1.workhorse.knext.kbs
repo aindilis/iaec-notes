@@ -1,0 +1,2669 @@
+;; (-LRB- DEAR JESS , ANSWER SET PROGRAMMING DEBIAN PACKAGES
+ HTTP:\/\/WWW.KR.TUWIEN.AC.AT\/STAFF\/TKREN\/DEB.HTML DO YOU HAVE ANY IDEA HOW TO FIX THE FOLLOWING ?)
+
+;; E
+
+;;  K
+
+	;; A DEAR_JESS[PERSON??] MAY DO.
+
+;;   F
+
+;;    S
+
+		(and (DEAR_5FJESS_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (DO_27 ?x1))
+
+;;  K
+
+	;; AN ANSWER_SET_PROGRAMMING_DEBIAN[PERSON??] MAY HAVE PACKAGES.
+
+;;   F
+
+;;    S
+
+		(and (ANSWER_5FSET_5FPROGRAMMING_5FDEBIAN_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (PACKAGES_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY HAVE AN IDEA.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (IDEA_27 ?x1))
+
+;; (ANDREWDO@POSI.FRDCSA.ORG 'S PASSWORD : COUNTING OBJECTS : 7 , DONE)
+
+;; E
+
+;;  K
+
+	;; ANDREWDO@POSI.FRDCSA.ORG MAY HAVE A PASSWORD.
+
+;;   F
+
+;;    S
+
+		(and (ANDREWDO_27 ?x1) (kbs2_kif_quote_40_27 ?x1) (POSI_2EFRDCSA_2EORG_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PASSWORD_27 ?x1))
+
+;;  K
+
+	;; OBJECTS CAN BE COUNTING.
+
+;;   F
+
+;;    S
+
+		(and (object_27 ?x1) (be_27 ?e1 ?x1 ?x2) (counting_27 ?x2))
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY BE DO -ED.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DO_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (DELTA COMPRESSION USING UP TO 12 THREADS)
+
+;; E
+
+;;  K
+
+	;; A DELTA[PERSON??] MAY COMPRESSION.
+
+;;   F
+
+;;    S
+
+		(and (DELTA_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (COMPRESSION_27 ?x1))
+
+;; (COMPRESSING OBJECTS : 100 % -LRB- 6\/6 -RRB- , DONE)
+
+;; E
+
+;;  K
+
+	;; OBJECTS CAN BE COMPRESSING.
+
+;;   F
+
+;;    S
+
+		(and (object_27 ?x1) (be_27 ?e1 ?x1 ?x2) (compressing_27 ?x2))
+
+;;  K
+
+	;; SOME_NUMBER_OF % MAY BE DO -ED.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (kbs2_kif_quote_25_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DO_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (ERROR : INFLATE RETURNED -5 ERROR : PACK-OBJECTS DIED OF SIGNAL 13 ERROR : FAILED TO PUSH SOME REFS TO `
+ SSH://ANDREWDO@POSI.FRDCSA.ORG \/ GITROOT\/RELEASES ' HOW DOES ONE GET A PROLOG LIST CONTAINING THE
+ NAMES OF ALL PREDICATES THAT HAVE BEEN DEFINED IN USER CONSULTED FILES ?)
+
+;; E
+
+;;  K
+
+	;; AN INFLATE[PERSON??] MAY RETURN.
+
+;;   F
+
+;;    S
+
+		(and (INFLATE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (RETURN_27 ?x1))
+
+;;  K
+
+	;; PACK-OBJECTS MAY BE DIE -ED OF SOME_NUMBER_OF ERROR.
+
+;;   F
+
+;;    S
+
+		(and (PACK-OBJECTS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DIE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (of_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (ERROR_27 ?x2))
+
+;;  K
+
+	;; GITROOT\/RELEASES CAN BE SSH://ANDREWDO@POSI.FRDCSA.ORG.
+
+;;   F
+
+;;    S
+
+		(and (GITROOT_5C_2FRELEASES_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SSH_27 ?x1) (kbs2_kif_quote_2F_2FANDREWDO_27 ?x2) (kbs2_kif_quote_40_27 ?x2) (POSI_2EFRDCSA_2EORG_27 ?x2))
+
+;;  K
+
+	;; GITROOT\/RELEASES CAN BE \/.
+
+;;   F
+
+;;    S
+
+		(and (GITROOT_5C_2FRELEASES_27 ?x1) (be_27 ?e1 ?x1 ?x2) (kbs2_kif_quote_5C_2F_27 ?x2))
+
+;;  K
+
+	;; A LIST MAY CONTAIN NAMES OF SOME_NUMBER_OF PREDICATES.
+
+;;   F
+
+;;    S
+
+		(and (LIST_27 ?x1) (MAY_27 ?x1) (CONTAIN_27 ?x1) (NAMES_27 ?x1) (of_27 ?x1 ?x2) (SOME_5FNUMBER_5FOF_27 ?x2) (PREDICATES_27 ?x2))
+
+;;  K
+
+	;; A PROLOG[PERSON??] MAY HAVE A LIST.
+
+;;   F
+
+;;    S
+
+		(and (PROLOG_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (LIST_27 ?x1))
+
+;;  K
+
+	;; USER MAY BE CONSULT -ED.
+
+;;   F
+
+;;    S
+
+		(and (USER_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (CONSULT_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (HOW DOES ONE GET A LIST OF ALL THE FILENAMES THAT DEFINE A GIVEN PREDICATE ?)
+
+;; E
+
+;;  K
+
+	;; FILENAMES MAY HAVE A LIST.
+
+;;   F
+
+;;    S
+
+		(and (FILENAMES_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (LIST_27 ?x1))
+
+;;  K
+
+	;; A PREDICATE CAN BE GIVEN.
+
+;;   F
+
+;;    S
+
+		(and (PREDICATE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GIVEN_27 ?x1))
+
+;; (THANKS , ANDY FIXME : FIX THIS : HEY JESS , SORRY I HAVE BEEN OUT OF COMMUNICATION , I FIGURED YOU WERE
+ BUSY WITH THE TRIP , AND MY INTERNET HAS BEEN UTTERLY TERRIBLE -LRB- I 'LL EXPLAIN BELOW -RRB-)
+
+;; E
+
+;;  K
+
+	;; A PERSON CAN BE OF COMMUNICATION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (be_27 ?e1 ?x1) (of_27 ?x1 ?x2) (communication_27 ?x2))
+
+;;  K
+
+	;; A PERSON MAY FIGURE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (FIGURE_27 ?x1))
+
+;;  K
+
+	;; A PERSON CAN BE BUSY WITH A TRIP.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (be_27 ?e1 ?x1 ?x2) (BUSY_27 ?x2) (WITH_27 ?x2) (A_27 ?x2) (TRIP_27 ?x2))
+
+;;  K
+
+	;; AN INTERNET CAN BE TERRIBLE.
+
+;;   F
+
+;;    S
+
+		(and (INTERNET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TERRIBLE_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY HAVE AN INTERNET.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (INTERNET_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY EXPLAIN.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (EXPLAIN_27 ?x1))
+
+;; (WHERE WAS IT AGAIN THAT YOU WERE GOING ON THIS TRIP ?)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY GO ON A TRIP.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (GO_27 ?x1) (on_27 ?x1 ?x2) (A_27 ?x2) (TRIP_27 ?x2))
+
+;; (SORRY MY MEMORY IS HAZY , PLUS \/ WO INTERNET CONNECTION DIFFICULT TO REVIEW PREVIOUS CONVOS)
+
+;; E
+
+;;  K
+
+	;; A MEMORY CAN BE HAZY.
+
+;;   F
+
+;;    S
+
+		(and (MEMORY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HAZY_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY HAVE A MEMORY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (MEMORY_27 ?x1))
+
+;; (I JUST WANTED TO GET THIS LETTER OUT TO YOU AND THEN MAYBE DO SOMETHING LIKE THE TUTORIAL FOR A LITTLE
+ BIT WHILE WATCHING A MOVIE)
+
+;; E
+
+;;  K
+
+	;; A TUTORIAL CAN BE FOR A BIT.
+
+;;   F
+
+;;    S
+
+		(and (TUTORIAL_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (BIT_27 ?x2))
+
+;; (WE HAD A COUPLE OF OVERAGE FEES BECAUSE LAST INTERNET CYCLE I GOT GREEDY AND USED THE CELL PHONE
+ INTERNET TO FIX SOME SOFTWARE SYSTEMS , AND I WOUND UP USING ABOUT 8 GB AND MY SISTER USED MORE THAN 7
+ SO WE OVERED OUR 15 GB PLAN)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY HAVE A COUPLE OF FEES.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (COUPLE_27 ?x1) (of_27 ?x1 ?x2) (fee_27 ?x2))
+
+;;  K
+
+	;; FEES CAN BE OVERAGE.
+
+;;   F
+
+;;    S
+
+		(and (fee_27 ?x1) (be_27 ?e1 ?x1 ?x2) (OVERAGE_27 ?x2))
+
+;;  K
+
+	;; A PERSON MAY GET GREEDY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (GET_27 ?x1) (GREEDY_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY WOUND_UP.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (WOUND_5FUP_27 ?x1))
+
+;;  K
+
+	;; A SISTER MAY BE USE -ED.
+
+;;   F
+
+;;    S
+
+		(and (SISTER_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (USE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY HAVE A SISTER.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SISTER_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY OVER SOME_NUMBER_OF PLAN.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (OVER_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (PLAN_27 ?x1))
+
+;;  K
+
+	;; A GB[PERSON??] MAY HAVE A PLAN.
+
+;;   F
+
+;;    S
+
+		(and (GB_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (plan_27 ?x1))
+
+;; (MY SISTER WAS NICE ENOUGH TO PAY MY BILL FOR ME , BUT CONSEQUENTLY DID NOT WANT ME USING THE INTERNET AT
+ ALL)
+
+;; E
+
+;;  K
+
+	;; A SISTER CAN BE NICE.
+
+;;   F
+
+;;    S
+
+		(and (SISTER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (NICE_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY HAVE A SISTER.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (SISTER_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY HAVE A BILL.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (BILL_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY USE AN INTERNET.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (AN_27 ?x1) (INTERNET_27 ?x1))
+
+;; (AS A COMPROMISE WHAT I HAVE DONE IS TO TURN IMAGES OFF AND GREATLY RESTRICT ALL OF MY INTERNET USAGE ,
+ JUST TO RSS FEEDS , CHECKING EMAIL , AND OCCASIONALLY RETRIEVING A FILE)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY DO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1))
+
+;;  K
+
+	;; A USAGE MAY HAVE A THING.
+
+;;   F
+
+;;    S
+
+		(and (USAGE_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (thing_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY HAVE A USAGE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (USAGE_27 ?x1))
+
+;;  K
+
+	;; A USAGE CAN BE INTERNET.
+
+;;   F
+
+;;    S
+
+		(and (USAGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INTERNET_27 ?x1))
+
+;;  K
+
+	;; RSS MAY FEED.
+
+;;   F
+
+;;    S
+
+		(and (RSS_27 ?x1) (MAY_27 ?x1) (FEED_27 ?x1))
+
+;; (THERE IS A SECOND COMPLICATION WHICH PROHIBITS ONLINE INTERACTION)
+
+;; E
+
+;;  K
+
+	;; AN INTERACTION CAN BE ONLINE.
+
+;;   F
+
+;;    S
+
+		(and (INTERACTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ONLINE_27 ?x1))
+
+;; (THE SILLY INTERNET , FOR WHATEVER REASON , REQUIRES THAT I CONNECT THE MOBILE HOTSPOT , AND THEN ISSUE A
+ DHCP COMMAND)
+
+;; E
+
+;;  K
+
+	;; AN INTERNET MAY REQUIRE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (INTERNET_27 ?x1) (MAY_27 ?x1) (require_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; AN INTERNET CAN BE SILLY.
+
+;;   F
+
+;;    S
+
+		(and (INTERNET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SILLY_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY CONNECT A HOTSPOT.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (CONNECT_27 ?x1) (A_27 ?x1) (HOTSPOT_27 ?x1))
+
+;;  K
+
+	;; A HOTSPOT CAN BE MOBILE.
+
+;;   F
+
+;;    S
+
+		(and (HOTSPOT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MOBILE_27 ?x1))
+
+;;  K
+
+	;; A DHCP[PERSON??] MAY HAVE A COMMAND.
+
+;;   F
+
+;;    S
+
+		(and (DHCP_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (command_27 ?x1))
+
+;; (THE INTERNET THEN WORKS CORRECTLY FOR AROUND 1 MINUTE , BEFORE I CAN NO LONGER PING THE HOTSPOT GATEWAY)
+
+;; E
+
+;;  K
+
+	;; AN INTERNET MAY WORK.
+
+;;   F
+
+;;    S
+
+		(and (INTERNET_27 ?x1) (MAY_27 ?x1) (WORK_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY PING A GATEWAY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (PING_27 ?x1) (A_27 ?x1) (GATEWAY_27 ?x1))
+
+;;  K
+
+	;; A GATEWAY CAN BE HOTSPOT.
+
+;;   F
+
+;;    S
+
+		(and (GATEWAY_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HOTSPOT_27 ?x1))
+
+;; (IF LEFT ON FOR MANY MINUTES THERE ARE VERY OCCASIONALLY SEVERAL SECOND LONG WINDOWS WHERE IT PINGS AGAIN
+ AND I CAN USE IT)
+
+;; E
+
+;;  K
+
+	;; WINDOWS CAN BE LONG.
+
+;;   F
+
+;;    S
+
+		(and (window_27 ?x1) (be_27 ?e1 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY PING.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (PING_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY USE A THING-REFERRED-TO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (A_27 ?x1) (THING-REFERRED-TO_27 ?x1))
+
+;; (AS YOU CAN IMAGINE THIS IS VERY FRUSTRATING , AND , AS TIRED AS I WAS YESTERDAY , I WAS JUST TOO TIRED
+ TO TRY TO COMMUNICATE VIA FACEBOOK MESSENGER)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY IMAGINE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (IMAGINE_27 ?x1))
+
+;;  K
+
+	;; A THING CAN BE FRUSTRATING.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1 ?x2) (FRUSTRATING_27 ?x2))
+
+;; (PLUS IT IS HIGHLY ANNOYING TO NOT KNOW WHETHER YOUR MESSAGE HAS BEEN SENT AND\/OR RECEIVED)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE ANNOYING.
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (ANNOYING_27 ?x1))
+
+;;  K
+
+	;; A MESSAGE MAY BE SEND -ED.
+
+;;   F
+
+;;    S
+
+		(and (MESSAGE_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (SEND_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY HAVE A MESSAGE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (MESSAGE_27 ?x1))
+
+;; (HOPEFULLY I WILL GET A GOOD NIGHTS SLEEP AND NOT BECOME TOO DRAINED BY TOMORROW 'S ERRANDS , AND WILL BE
+ ABLE TO CALL YOU)
+
+;; E
+
+;;  K
+
+	;; TOMORROW MAY HAVE ERRANDS.
+
+;;   F
+
+;;    S
+
+		(and (TOMORROW_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (ERRANDS_27 ?x1))
+
+;; (IF I WERE TO CALL YOU MY SATURDAY NIGHT , WHICH WOULD BE YOUR MORNING , WHAT TIME YOUR TIME WOULD YOU
+ LIKE ME TO CALL ?)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY HAVE A NIGHT.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (NIGHT_27 ?x1))
+
+;;  K
+
+	;; A WEEKDAY MAY HAVE A NIGHT.
+
+;;   F
+
+;;    S
+
+		(and (WEEKDAY_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (NIGHT_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY HAVE A MORNING.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (morning_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY HAVE A TIME.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TIME_27 ?x1))
+
+;; (I KNOW THAT 11 PM MY TIME IS 10 AM YOUR TIME -LRB- BUT I 'M NOT SURE OF WHICH DAY IT WOULD BE FOR YOU
+ -RRB-)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY KNOW A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (KNOW_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; SOME NUMBER_OR_PORTION MAY PM.
+
+;;   F
+
+;;    S
+
+		(and (NUMBER_5FOR_5FPORTION_27 ?x1) (MAY_27 ?x1) (PM_27 ?x1))
+
+;;  K
+
+	;; A TIME CAN BE A TIME.
+
+;;   F
+
+;;    S
+
+		(and (time_27 ?x1) (be_27 ?e1 ?x1 ?x2) (time_27 ?x2))
+
+;;  K
+
+	;; A PERSON MAY HAVE A TIME.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (TIME_27 ?x1))
+
+;;  K
+
+	;; A PERSON CAN BE SURE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (be_27 ?e1 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE FOR A PERSON.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (PERSON_27 ?x2))
+
+;; (SO , YOU HAD A QUESTION)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY HAVE A QUESTION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (QUESTION_27 ?x1))
+
+;; (THE `` BOOK '' I WAS REFERRING TO IS THE AMZI ADVENTURES IN PROLOG TUTORIAL , WHICH IS AVAILABLE ONLINE
+ AS A WEBPAGE)
+
+;; E
+
+;;  K
+
+	;; A BOOK CAN BE AN AMZI_ADVENTURES[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (BOOK_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AN_27 ?x2) (AMZI_5FADVENTURES_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; AN AMZI_ADVENTURES[PERSON??] CAN BE IN A PROLOG_TUTORIAL[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (AMZI_5FADVENTURES_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (in_27 ?x1) (A_27 ?x1) (PROLOG_5FTUTORIAL_27 ?x1) (PERSON_27 ?x2))
+
+;; (I 'M UP TO PAGE 70 NOW OF A PDF VERSION OF THE TUTORIAL)
+
+;; E
+
+;;  K
+
+	;; A PERSON CAN BE OF A PDF VERSION OF A TUTORIAL.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (be_27 ?e1 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (PDF_27 ?x2) (VERSION_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (TUTORIAL_27 ?x3))
+
+;;  K
+
+	;; A TUTORIAL MAY HAVE A PDF VERSION.
+
+;;   F
+
+;;    S
+
+		(and (TUTORIAL_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PDF_27 ?x1) (VERSION_27 ?x1))
+
+;; (IT IS REALLY HANDY AS I GUESS I 'M GETTING CLOSER TO BEING ABLE TO REALLY UNDERSTAND HOW TO PROGRAM IN
+ PROLOG , AS A RESULT OF THE DIFFERENT IMPROVEMENTS I HAVE BEEN TRYING TO MAKE IN MY SYSTEMS '
+ CAPABILITIES)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE HANDY.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HANDY_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY GUESS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (GUESS_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY GET.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (GET_27 ?x1))
+
+;;  K
+
+	;; PROGRAM CAN BE IN A PROLOG[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (program_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (PROLOG_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; IMPROVEMENTS MAY HAVE A RESULT.
+
+;;   F
+
+;;    S
+
+		(and (improvement_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (RESULT_27 ?x1))
+
+;;  K
+
+	;; SYSTEMS MAY HAVE CAPABILITIES.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEMS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (CAPABILITIES_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY HAVE SYSTEMS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (SYSTEMS_27 ?x1))
+
+;; (I UNDERSTAND MORE SQL THAN I DID A FEW YEARS AGO , AND ALSO MORE ABOUT THE SEMANTICS OF LOGIC
+ PROGRAMMING , AND MEMOIZATION\/TABLING)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY UNDERSTAND SQL.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (UNDERSTAND_27 ?x1) (SQL_27 ?x1))
+
+;; (ALSO , I 'M INTERESTED IN KNOWLEDGE BASES AND HAVE SOME PRACTICAL EXPERIENCE TRYING TO IMPLEMENT THEM)
+
+;; E
+
+;;  K
+
+	;; A PERSON CAN BE INTERESTED IN KNOWLEDGE BASES.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (be_27 ?e1 ?x1 ?e2) (interest_27 ?e2 ?x1) (in_27 ?e2 ?x2) (KNOWLEDGE_27 ?x2) (BASES_27 ?x2))
+
+;;  K
+
+	;; AN EXPERIENCE CAN BE PRACTICAL.
+
+;;   F
+
+;;    S
+
+		(and (EXPERIENCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PRACTICAL_27 ?x1))
+
+;; (FOR INSTANCE , I JUST ADDED PROLOG IMPORT\/EXPORT TO KBS2)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY ADD IMPORT\/EXPORT TO A KBS2[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (ADD_27 ?x1) (IMPORT_5C_2FEXPORT_27 ?x1) (TO_27 ?x1) (A_27 ?x1) (KBS2_27 ?x1) (person_27 ?x2))
+
+;;  K
+
+	;; AN IMPORT\/EXPORT CAN BE PROLOG.
+
+;;   F
+
+;;    S
+
+		(and (IMPORT_5C_2FEXPORT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PROLOG_27 ?x1))
+
+;; (IT 'S FUNNY HOW -LRB- DESPITE OPERATING ON DIFFERENT SEMANTICS -RRB- THE FORMAT OF THE FREEKBS2 KB 'S
+ TERMS EXACTLY COINCIDES WITH PROLOG 'S BASIC TERMS)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE FUNNY.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FUNNY_27 ?x1))
+
+;;  K
+
+	;; A FORMAT OF TERMS MAY COINCIDE WITH TERMS.
+
+;;   F
+
+;;    S
+
+		(and (format_27 ?x1) (of_27 ?x1 ?x2) (TERMS_27 ?x2) (MAY_27 ?x2) (COINCIDE_27 ?x2) (WITH_27 ?x2) (TERMS_27 ?x2))
+
+;;  K
+
+	;; OPERATING CAN BE ON SEMANTICS.
+
+;;   F
+
+;;    S
+
+		(and (operating_27 ?x1) (be_27 ?e1 ?x1) (on_27 ?x1 ?x2) (SEMANTICS_27 ?x2))
+
+;;  K
+
+	;; TERMS MAY HAVE A FORMAT.
+
+;;   F
+
+;;    S
+
+		(and (TERMS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (format_27 ?x1))
+
+;;  K
+
+	;; A FREEKBS2_KB[PERSON??] MAY HAVE TERMS.
+
+;;   F
+
+;;    S
+
+		(and (FREEKBS2_5FKB_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (TERMS_27 ?x1))
+
+;;  K
+
+	;; A PROLOG[PERSON??] MAY HAVE TERMS.
+
+;;   F
+
+;;    S
+
+		(and (PROLOG_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (TERMS_27 ?x1))
+
+;;  K
+
+	;; TERMS CAN BE BASIC.
+
+;;   F
+
+;;    S
+
+		(and (TERMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BASIC_27 ?x1))
+
+;; (I.E. CONSTANTS , VARS , PREDICATES , ETC.)
+
+;; E
+
+;;  K
+
+	;; CONSTANTS CAN BE I.E..
+
+;;   F
+
+;;    S
+
+		(and (constant_27 ?x1) (be_27 ?e1 ?x1 ?x2) (I_2EE_2E_2E_27 ?x2))
+
+;; (SO I WROTE SOME CODE IN PROLOG TO COMPUTE THE FIRST UNREAD PAGE FROM DOCUMENTS THAT HAVE BEEN READ IN
+ ACADEMICIAN , SOMETHING THAT I HALFHEARTEDLY TRIED ONCE AND FAILED TO ACCOMPLISH USING THE THEOREM
+ PROVER)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY WRITE SOME_NUMBER_OF CODE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (WRITE_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (CODE_27 ?x1))
+
+;;  K
+
+	;; A PAGE CAN BE UNREAD.
+
+;;   F
+
+;;    S
+
+		(and (PAGE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (UNREAD_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY TRY.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (TRY_27 ?x1))
+
+;; (IN READING ABOUT PROLOG PORTS AND PROGRAM CONTROL FLOW , I THINK THERE MAY BE SOME ANALOGICAL CONCEPT
+ FOR USING WITH HIGHER ORDER CLASSICAL THEOREM PROVERS)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY THINK.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (THINK_27 ?x1))
+
+;;  K
+
+	;; PORTS CAN BE PROLOG.
+
+;;   F
+
+;;    S
+
+		(and (port_27 ?x1) (be_27 ?e1 ?x1 ?x2) (PROLOG_27 ?x2))
+
+;;  K
+
+	;; A CONCEPT CAN BE ANALOGICAL.
+
+;;   F
+
+;;    S
+
+		(and (CONCEPT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ANALOGICAL_27 ?x1))
+
+;;  K
+
+	;; AN ORDER CAN BE HIGHER.
+
+;;   F
+
+;;    S
+
+		(and (ORDER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (HIGHER_27 ?x1))
+
+;;  K
+
+	;; THEOREM PROVERS CAN BE CLASSICAL.
+
+;;   F
+
+;;    S
+
+		(and (theorem_27 ?x1) (prover_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CLASSICAL_27 ?x1))
+
+;; (LIKE YOU COULD HAVE A PORT FOR TIMING OUT , AND\/OR OTHER PORTS THAT ARE DEPENDENT ON DATA , LIKE A
+ TIMEOUT AFTER A CERTAIN NUMBER OF SECONDS , OR A SEARCH SOME GIVEN DEPTH , ETC.)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY HAVE A PORT.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PORT_27 ?x1))
+
+;;  K
+
+	;; DEPTH CAN BE GIVEN.
+
+;;   F
+
+;;    S
+
+		(and (DEPTH_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GIVEN_27 ?x1))
+
+;; (PARAMETERS TO A KIND OF FOL THEOREM PROVING)
+
+;; E
+
+;;  K
+
+	;; PARAMETERS TO A KIND OF A FOL[PERSON??] MAY THEOREM.
+
+;;   F
+
+;;    S
+
+		(and (parameter_27 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (KIND_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (FOL_27 ?x3) (person_27 ?x4))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (THEOREM_27 ?x1))
+
+;;  K
+
+	;; PARAMETERS CAN BE TO A KIND OF A FOL[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (parameter_27 ?x1) (be_27 ?e1 ?x1 ?x4) (to_27 ?e1 ?x2) (A_27 ?x2) (KIND_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (FOL_27 ?x3) (person_27 ?x4))
+
+;; (BUT FOR NOW , I 'M SO EXCITED TO GET A BETTER GRASP OF THE DEEP RELATIONS BETWEEN PROLOG AND SQL , RULES
+ , FLORA-2 AND SUCH)
+
+;; E
+
+;;  K
+
+	;; RELATIONS MAY HAVE A GRASP.
+
+;;   F
+
+;;    S
+
+		(and (RELATIONS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (GRASP_27 ?x1))
+
+;;  K
+
+	;; A GRASP CAN BE BETTER.
+
+;;   F
+
+;;    S
+
+		(and (GRASP_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BETTER_27 ?x1))
+
+;;  K
+
+	;; RELATIONS CAN BE BETWEEN A PROLOG_AND_SQL[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (BETWEEN_27 ?x2) (A_27 ?x2) (PROLOG_5FAND_5FSQL_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; RELATIONS CAN BE DEEP.
+
+;;   F
+
+;;    S
+
+		(and (relation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (DEEP_27 ?x2))
+
+;; (SO I 'M GOING TO FINISH THIS AMZI ADVENTURES IN PROLOG TUTORIAL)
+
+;; E
+
+;;  K
+
+	;; AN AMZI_ADVENTURES[PERSON??] CAN BE IN A PROLOG_TUTORIAL[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (AMZI_5FADVENTURES_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (in_27 ?x1) (A_27 ?x1) (PROLOG_5FTUTORIAL_27 ?x1) (PERSON_27 ?x2))
+
+;; (IT 'S NEAT BECAUSE , 1 -RRB- IT GIVES AN IDEA OF HOW TO PROGRAM AN INFORM LIKE ADVENTURE GAME WHICH I
+ ASSUME MAPS ABSTRACTLY INTO LOGICMOO , 2 -RRB- PART OF THE TUTORIAL INVOLVES WRITING AN INVENTORY
+ MANAGER PROGRAM)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE NEAT.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (NEAT_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY GIVE AN IDEA.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (GIVE_27 ?x1) (AN_27 ?x1) (IDEA_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY ASSUME MAPS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (ASSUME_27 ?x1) (MAPS_27 ?x1))
+
+;; (-LRB- I 'M NOT BEING CLEVER WITH HOW I 'M IMPLEMENTING IT BECAUSE I WANT TO COMPLETE THE TUTORIAL , IN
+ CASE MODIFICATIONS THEY PROPOSE LATER WOULD NOT BE COMPATIBLE WITH MORE SOPHISTICATED KINDS OF
+ IMPLEMENTATION , BUT I AM GOING TO GIVE IT A LOT OF ADVANCED KB LIKE FUNCTIONALITY -RRB-)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY IMPLEMENT A THING-REFERRED-TO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (IMPLEMENT_27 ?x1) (A_27 ?x1) (THING-REFERRED-TO_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY PROPOSE.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (PROPOSE_27 ?x1))
+
+;;  K
+
+	;; KINDS CAN BE SOPHISTICATED.
+
+;;   F
+
+;;    S
+
+		(and (kind_27 ?x1) (be_27 ?e1 ?x1 ?e2) (sophisticate_27 ?e2 ?x1))
+
+;; (I AM GOING TO USE THE INVENTORY MANAGEMENT AS PART OF THE NORMAL FORM AND PERSONAL INVENTORY MANAGER I
+ 'M WRITING)
+
+;; E
+
+;;  K
+
+	;; A FORM CAN BE NORMAL.
+
+;;   F
+
+;;    S
+
+		(and (FORM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (NORMAL_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY WRITE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (WRITE_27 ?x1))
+
+;; (I KNOW FROM EXPERIENCE THAT DEVELOPING AN INVENTORY MANAGER PROGRAM IS NON TRIVIAL TO DO IN PROLOG
+ HAVING WRITTEN THE SHOPS POINT OF SALE SYSTEM FOR SQUIRREL HILL HARDWARE)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY KNOW FROM EXPERIENCE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (KNOW_27 ?x1) (FROM_27 ?x1) (EXPERIENCE_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; A POINT CAN BE SHOPS.
+
+;;   F
+
+;;    S
+
+		(and (POINT_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SHOPS_27 ?x2))
+
+;; (I KNOW FROM EXPERIENCE THAT DEVELOPING AN INVENTORY MANAGER PROGRAM IS NON TRIVIAL TO DO IN PROLOG
+ HAVING WRITTEN THE SHOPS POINT OF SALE SYSTEM FOR SQUIRREL HILL HARDWARE)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY KNOW FROM EXPERIENCE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (KNOW_27 ?x1) (FROM_27 ?x1) (EXPERIENCE_27 ?x1) (A_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; A POINT CAN BE SHOPS.
+
+;;   F
+
+;;    S
+
+		(and (POINT_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SHOPS_27 ?x2))
+
+;; (BUT THE BEAUTY IS YOU DEFINE A COUPLE OF PREDICATES AND THEN BOB 'S YOUR UNCLE - THERE IS SO MUCH YOU
+ CAN DO)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY DEFINE A COUPLE OF PREDICATES.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (define_27 ?e1 ?x1 ?x2) (A_27 ?x2) (couple_27 ?x2) (of_27 ?x2 ?x3) (PREDICATES_27 ?x3))
+
+;;  K
+
+	;; A MALE CAN BE AN UNCLE.
+
+;;   F
+
+;;    S
+
+		(and (MALE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (AN_27 ?x1) (UNCLE_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY HAVE AN UNCLE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (UNCLE_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY DO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1))
+
+;; (AND THEN YOU CAN EXPOSE THIS TO FREEKBS2)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY EXPOSE A THING TO FREEKBS2.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (EXPOSE_27 ?x1) (A_27 ?x1) (THING_27 ?x1) (to_27 ?x1 ?x2) (FREEKBS2_27 ?x2))
+
+;; (I WROTE A BASIC AGENT FOR MONITORING A DIRECTORY AND ACTING ON DYNAMIC DIRECTORY CONTENTS , SUCH AS FOR
+ HOUSEKEEPING A HOME DIRECTORY)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY WRITE AN AGENT.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (WRITE_27 ?x1) (AN_27 ?x1) (AGENT_27 ?x1))
+
+;;  K
+
+	;; AN AGENT CAN BE BASIC.
+
+;;   F
+
+;;    S
+
+		(and (AGENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BASIC_27 ?x1))
+
+;;  K
+
+	;; DIRECTORY CONTENTS CAN BE DYNAMIC.
+
+;;   F
+
+;;    S
+
+		(and (DIRECTORY_27 ?x1) (CONTENTS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DYNAMIC_27 ?x1))
+
+;; (AND ONCE KBFS WORKS , AND ALL THE RESULTS ARE STORED IN THE KB , IT WILL BE EASIER TO CODE UP ADVANCED
+ SOLUTIONS)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE EASIER.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EASIER_27 ?x1))
+
+;;  K
+
+	;; KBFS MAY WORK.
+
+;;   F
+
+;;    S
+
+		(and (KBFS_27 ?x1) (MAY_27 ?x1) (WORK_27 ?x1))
+
+;;  K
+
+	;; RESULTS MAY BE STORE -ED IN A KB[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (result_27 ?x1) (MAY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (STORE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (in_27 ?x2 ?x3) (A_27 ?x3) (KB_27 ?x3) (person_27 ?x4))
+
+;;  K
+
+	;; SOLUTIONS CAN BE ADVANCED.
+
+;;   F
+
+;;    S
+
+		(and (solution_27 ?x1) (be_27 ?e1 ?x1 ?x2) (ADVANCED_27 ?x2))
+
+;; (HERE IS AN EXAMPLE , I COMPUTED A REPORT OF ALL THE FIRST UNREAD PAGES OF ALL THE BOOKS I WAS READING
+ WITH ACADEMICIAN)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY COMPUTE A REPORT OF PAGES OF BOOKS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (COMPUTE_27 ?x1) (A_27 ?x1) (REPORT_27 ?x1) (of_27 ?x1 ?x2) (page_27 ?x2) (of_27 ?x2 ?x3) (book_27 ?x3))
+
+;;  K
+
+	;; BOOKS MAY HAVE PAGES.
+
+;;   F
+
+;;    S
+
+		(and (BOOKS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (PAGES_27 ?x1))
+
+;;  K
+
+	;; PAGES CAN BE UNREAD.
+
+;;   F
+
+;;    S
+
+		(and (page_27 ?x1) (be_27 ?e1 ?x1 ?x2) (UNREAD_27 ?x2))
+
+;;  K
+
+	;; A PERSON MAY READ WITH AN ACADEMICIAN[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (READ_27 ?x1) (WITH_27 ?x1) (AN_27 ?x1) (ACADEMICIAN_27 ?x1) (PERSON_27 ?x2))
+
+;; (AND THE ONE 'S THAT I HAVE READ MORE OF , WE CAN ASSUME ARE OF GREATER IMPORTANCE AND\/OR
+ INTERESTINGNESS TO ME)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY ASSUME.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (ASSUME_27 ?x1))
+
+;;  K
+
+	;; AN ONE CAN BE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (one_27 ?x1) (be_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; A PERSON MAY READ.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (READ_27 ?x1))
+
+;;  K
+
+	;; IMPORTANCE CAN BE GREATER.
+
+;;   F
+
+;;    S
+
+		(and (IMPORTANCE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GREATER_27 ?x1))
+
+;; (THEREFORE , I COULD ASSOCIATE AN IMPROVED SCORE WITH WORDS , PHRASES , NAMEDENTITIES FROM THE TEXT , AND
+ USE THAT IN A FOCUSED CRAWLER TO OBTAIN MORE MATERIALS)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY ASSOCIATE A SCORE WITH WORDS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (ASSOCIATE_27 ?x1) (A_27 ?x1) (SCORE_27 ?x1) (WITH_27 ?x1) (WORDS_27 ?x1))
+
+;;  K
+
+	;; A SCORE CAN BE IMPROVED.
+
+;;   F
+
+;;    S
+
+		(and (SCORE_27 ?x1) (be_27 ?e1 ?x1 ?x2) (IMPROVED_27 ?x2))
+
+;;  K
+
+	;; NAMEDENTITIES CAN BE FROM A TEXT.
+
+;;   F
+
+;;    S
+
+		(and (namedentity_27 ?x1) (be_27 ?e1 ?x1 ?x2) (FROM_27 ?x2) (A_27 ?x2) (TEXT_27 ?x2))
+
+;;  K
+
+	;; A CRAWLER CAN BE FOCUSED.
+
+;;   F
+
+;;    S
+
+		(and (CRAWLER_27 ?x1) (be_27 ?e1 ?x1 ?e2) (focus_27 ?e2 ?x1))
+
+;; (THAT 'S A BASIC EXAMPLE)
+
+;; E
+
+;;  K
+
+	;; A THING CAN BE AN EXAMPLE.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AN_27 ?x2) (EXAMPLE_27 ?x2))
+
+;;  K
+
+	;; AN EXAMPLE CAN BE BASIC.
+
+;;   F
+
+;;    S
+
+		(and (EXAMPLE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (BASIC_27 ?x1))
+
+;; (OF COURSE , ULTIMATELY , EVEN GIVEN THE DATA-LIKE NATURE OF PROLOG LOGICBASES , THERE IS STILL TOO MUCH
+ MANUAL CODING IN THE DRAFTING OF THESE PROGRAMS)
+
+;; E
+
+;;  K
+
+	;; A NATURE CAN BE DATA-LIKE.
+
+;;   F
+
+;;    S
+
+		(and (NATURE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DATA-LIKE_27 ?x1))
+
+;;  K
+
+	;; PROGRAMS MAY UNDERGO A DRAFTING.
+
+;;   F
+
+;;    S
+
+		(and (PROGRAMS_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (A_27 ?x1) (drafting_27 ?x1))
+
+;; (I TRIED TO WRITE THAT FIRST UNREAD PAGE FUNCTION AND IT TOOK SOME DOING)
+
+;; E
+
+;;  K
+
+	;; A PAGE FUNCTION CAN BE UNREAD.
+
+;;   F
+
+;;    S
+
+		(and (PAGE_27 ?x1) (FUNCTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (UNREAD_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY TAKE SOME_NUMBER_OF THING.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (TAKE_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (thing_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF THING MAY DO.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (THING_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1))
+
+;; (AND FOR THAT I 'M LOOKING TO THE THEOREM PROVING)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY LOOK TO A THEOREM PROVING.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (LOOK_27 ?x1) (TO_27 ?x1) (A_27 ?x1) (THEOREM_27 ?x1) (PROVING_27 ?x1))
+
+;; (FIRST IS I GOT THROUGH A DECENT AMOUNT OF THE ACL2 THEOREM PROVER DOCUMENTATION , AND WHEN I TIRE OF THE
+ PROLOG PROGRAMMING I WILL GET BACK TO IT)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY GET THROUGH AN AMOUNT OF A THEOREM PROVER DOCUMENTATION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (GET_27 ?x1) (through_27 ?x1 ?x2) (AN_27 ?x2) (AMOUNT_27 ?x2) (of_27 ?x1 ?x3) (A_27 ?x3) (THEOREM_27 ?x3) (PROVER_27 ?x3) (DOCUMENTATION_27 ?x3))
+
+;;  K
+
+	;; AN AMOUNT CAN BE DECENT.
+
+;;   F
+
+;;    S
+
+		(and (AMOUNT_27 ?x1) (be_27 ?e1 ?x1))
+
+;;  K
+
+	;; AN ACL2[PERSON??] MAY HAVE A THEOREM PROVER DOCUMENTATION.
+
+;;   F
+
+;;    S
+
+		(and (ACL2_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (THEOREM_27 ?x1) (PROVER_27 ?x1) (DOCUMENTATION_27 ?x1))
+
+;;  K
+
+	;; A PROGRAMMING MAY HAVE I TIRE.
+
+;;   F
+
+;;    S
+
+		(and (PROGRAMMING_27 ?x1) (MAY_27 ?x1) (have_27 ?e1 ?x1) (I_27 ?x2) (tire_27 ?e2 ?x2 ?e1))
+
+;;  K
+
+	;; A PROLOG[PERSON??] MAY HAVE A PROGRAMMING.
+
+;;   F
+
+;;    S
+
+		(and (PROLOG_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (programming_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY GET_BACK TO A THING-REFERRED-TO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (GET_5FBACK_27 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (thing-referred-to_27 ?x2))
+
+;; (BASICALLY , IT IMPLEMENTS A TINY APPLICATIVE SUBSET OF COMMON LISP)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY IMPLEMENT AN APPLICATIVE SUBSET OF A COMMON_LISP[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (IMPLEMENT_27 ?x1) (AN_27 ?x1) (APPLICATIVE_27 ?x1) (SUBSET_27 ?x1) (of_27 ?x1 ?x2) (A_27 ?x2) (COMMON_5FLISP_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; AN APPLICATIVE SUBSET CAN BE TINY.
+
+;;   F
+
+;;    S
+
+		(and (APPLICATIVE_27 ?x1) (SUBSET_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (TINY_27 ?x1))
+
+;; (THERE IS NO CLOS OR MOP -LRB- UNFORTUNATELY , AS THAT WOULD MAKE ACHIEVING A AM\/EURISKO LIKE SYSTEM SO
+ MUCH EASIER -RRB- , BUT IT IS STILL VERY EXPRESSIVE)
+
+;; E
+
+;;  K
+
+	;; A THING MAY MAKE.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (MAKE_27 ?x1))
+
+;;  K
+
+	;; SYSTEM CAN BE EASIER.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EASIER_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE EXPRESSIVE.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EXPRESSIVE_27 ?x1))
+
+;; (THERE IS I THINK AN ANALOG TO CERTAIN SIDE-EFFECT FREE PROLOG PROGRAMMING , SPECIFICALLY WHERE STATE
+ DOES N'T GO INTO THE LOGICBASE WITH ASSERT BUT IS COMMUNICATED THROUGH THE ARGUMENTS TO FUNCTIONS)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY THINK AN ANALOG TO PROLOG PROGRAMMING.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (THINK_27 ?x1) (AN_27 ?x1) (ANALOG_27 ?x1) (TO_27 ?x1) (PROLOG_27 ?x1) (PROGRAMMING_27 ?x1))
+
+;;  K
+
+	;; A PROLOG PROGRAMMING CAN BE SIDE-EFFECT.
+
+;;   F
+
+;;    S
+
+		(and (PROLOG_27 ?x1) (PROGRAMMING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (SIDE-EFFECT_27 ?x1))
+
+;;  K
+
+	;; A PROLOG PROGRAMMING CAN BE FREE.
+
+;;   F
+
+;;    S
+
+		(and (PROLOG_27 ?x1) (PROGRAMMING_27 ?x1) (be_27 ?e1 ?x1))
+
+;;  K
+
+	;; STATE MAY DO.
+
+;;   F
+
+;;    S
+
+		(and (STATE_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1))
+
+;;  K
+
+	;; A LOGICBASE CAN BE WITH AN ASSERT[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (LOGICBASE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (WITH_27 ?x1) (AN_27 ?x1) (ASSERT_27 ?x1) (person_27 ?x2))
+
+;; (AND HERE THERE IS ALREADY THE AM SYSTEM FOR PROLOG -LRB- AM-UTEXAS @ GITHUB -RRB-)
+
+;; E
+
+;;  K
+
+	;; A SYSTEM CAN BE FOR A PROLOG[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (PROLOG_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; A SYSTEM CAN BE AM.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (AM_27 ?x1))
+
+;;  K
+
+	;; A GITHUB CAN BE AM-UTEXAS.
+
+;;   F
+
+;;    S
+
+		(and (GITHUB_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (AM-UTEXAS_27 ?x1))
+
+;;  K
+
+	;; A GITHUB CAN BE @.
+
+;;   F
+
+;;    S
+
+		(and (GITHUB_27 ?x1) (be_27 ?e1 ?x1 ?x2) (kbs2_kif_quote_40_27 ?x2))
+
+;; (AND SO , I PLAN ON HAVING THE CAPABILITY FOR DIFFERENT PARTS OF THE SYSTEM TO COMMUNICATE)
+
+;; E
+
+;;  K
+
+	;; A CAPABILITY CAN BE FOR PARTS OF A SYSTEM.
+
+;;   F
+
+;;    S
+
+		(and (CAPABILITY_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (part_27 ?x2) (of_27 ?x2 ?x3) (A_27 ?x3) (SYSTEM_27 ?x3))
+
+;;  K
+
+	;; A SYSTEM MAY HAVE PARTS.
+
+;;   F
+
+;;    S
+
+		(and (SYSTEM_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (PARTS_27 ?x1))
+
+;; (I HAVE A LOT OF DOCS WRITTEN UP ABOUT IT , PROBABLY NOT WORTH MENTIONING HERE)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY HAVE A LOT OF DOCS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (LOT_27 ?x1) (of_27 ?x1 ?x2) (DOCS_27 ?x2))
+
+;;  K
+
+	;; DOCS MAY BE WRITE_UP -ED ABOUT A THING-REFERRED-TO.
+
+;;   F
+
+;;    S
+
+		(and (DOCS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (WRITE_5FUP_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (ABOUT_27 ?x1) (A_27 ?x1) (THING-REFERRED-TO_27 ?x1))
+
+;; (BUT ESSENTIALLY , ACL2 IS USED FOR FORMAL VERIFICATION AND PROGRAM ANALYSIS -LRB- BOTH STATIC AND
+ DYNAMIC -RRB-)
+
+;; E
+
+;;  K
+
+	;; AN ACL2[PERSON??] MAY BE USE -ED FOR VERIFICATION.
+
+;;   F
+
+;;    S
+
+		(and (ACL2_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (USE_27 ?x2) (kbs2_kif_quote_2DED_27 ?x2) (for_27 ?x2 ?x3) (VERIFICATION_27 ?x3))
+
+;;  K
+
+	;; A VERIFICATION CAN BE FORMAL.
+
+;;   F
+
+;;    S
+
+		(and (VERIFICATION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FORMAL_27 ?x1))
+
+;; (AND SO THAT WILL BE VERY USEFUL)
+
+;; E
+
+;;  K
+
+	;; A THING CAN BE USEFUL.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (USEFUL_27 ?x1))
+
+;; (AND SO YOU POPULATE A KB FROM THE LITERATURE WITH ALL SORTS OF FACTS OR SLOTS OR ATTRIBUTES FOR
+ DIFFERENT ALGORITHM CONCEPTS)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY POPULATE A KB[PERSON??] FROM LITERATURE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (POPULATE_27 ?x1) (A_27 ?x1) (KB_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (FROM_27 ?x1) (LITERATURE_27 ?x1))
+
+;; (AND THEN WHAT YOU DO IS GIVE A FORMAL -LRB- I.E. SET THEORETIC PSEUDO CODE -RRB- DEFINITION OF A PROBLEM
+ AND THE SYSTEM TRIES TO PROVE RESULTS AND USE THOSE RESULTS AS INPUT TO THE ALGORITHM FOR GENERATING THE
+ CODE)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY DO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1))
+
+;;  K
+
+	;; AN I.E.[PERSON??] MAY SET PSEUDO CODE.
+
+;;   F
+
+;;    S
+
+		(and (I_2EE_2E_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (SET_27 ?x1) (PSEUDO_27 ?x1) (CODE_27 ?x1))
+
+;;  K
+
+	;; A PSEUDO CODE CAN BE THEORETIC.
+
+;;   F
+
+;;    S
+
+		(and (PSEUDO_27 ?x1) (CODE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (THEORETIC_27 ?x1))
+
+;; (AND THEN THE NEAT THING IS , YOU USE AM\/EURISKO 'S HEURISTIC CONCEPT SEARCH AND KNOWLEDGE DISCOVERY TO
+ MAKE AND TRY GUESSES , AND THE GUESSES ARE USED AS INPUT TO A GENETIC PROGRAMMING MODEL WHERE YOU EVOLVE
+ DIFFERENT SOLUTIONS TO THE PROBLEM)
+
+;; E
+
+;;  K
+
+	;; A THING CAN BE NEAT.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (NEAT_27 ?x1))
+
+;;  K
+
+	;; AN |\|AM\\\\/EURISKO\||[PERSON??] MAY HAVE A HEURISTIC CONCEPT SEARCH.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_7C_5C_7CAM_5C_5C_5C_5C_2FEURISKO_5C_7C_7C_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (HEURISTIC_27 ?x1) (CONCEPT_27 ?x1) (SEARCH_27 ?x1))
+
+;;  K
+
+	;; GUESSES MAY BE USE -ED AS INPUT.
+
+;;   F
+
+;;    S
+
+		(and (GUESSES_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (USE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (AS_27 ?x1) (INPUT_27 ?x1))
+
+;;  K
+
+	;; A PROGRAMMING MODEL CAN BE GENETIC.
+
+;;   F
+
+;;    S
+
+		(and (PROGRAMMING_27 ?x1) (MODEL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GENETIC_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY EVOLVE SOLUTIONS TO A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (EVOLVE_27 ?x1) (SOLUTIONS_27 ?x1) (to_27 ?x1 ?x2) (A_27 ?x2) (PROBLEM_27 ?x2))
+
+;; (THE BEAUTY IS THAT THE MUTATIONS AND RECOMBINATIONS ARE NOT RANDOM , BUT ARE GUIDED BY THE THEOREM
+ PROVING AND ALSO THE HEURISTICS)
+
+;; E
+
+;;  K
+
+	;; A BEAUTY CAN BE A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (BEAUTY_27 ?x1) (be_27 ?e1 ?x1 ?x2) (proposition_27 ?x2))
+
+;;  K
+
+	;; MUTATIONS CAN BE RANDOM.
+
+;;   F
+
+;;    S
+
+		(and (mutation_27 ?x1) (be_27 ?e1 ?x1 ?x2) (RANDOM_27 ?x2))
+
+;; (SO IT 'S EDUCATED GUESSES DRIVING THE EVOLUTION)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE GUESSES.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (GUESSES_27 ?x2))
+
+;;  K
+
+	;; GUESSES MAY DRIVE AN EVOLUTION.
+
+;;   F
+
+;;    S
+
+		(and (GUESSES_27 ?x1) (MAY_27 ?x1) (DRIVE_27 ?x1) (AN_27 ?x1) (EVOLUTION_27 ?x1))
+
+;;  K
+
+	;; GUESSES CAN BE EDUCATED.
+
+;;   F
+
+;;    S
+
+		(and (guess_27 ?x1) (be_27 ?e1 ?x1 ?x2) (EDUCATED_27 ?x2))
+
+;; (THEN WHEN SOLUTIONS ARE FOUND , A CORRECTNESS PROOF IS ATTEMPTED , AND YOU WIND UP WITH SLOTS IN THE KB
+ DELINEATING LISP FUNCTIONS OR PROLOG LOGICBASES THAT SOLVE PARTICULAR MATHEMATICAL PROBLEMS DEFINED SET
+ THEORETICALLY)
+
+;; E
+
+;;  K
+
+	;; SOLUTIONS MAY BE FIND -ED.
+
+;;   F
+
+;;    S
+
+		(and (SOLUTIONS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (FIND_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; SLOTS MAY DELINEATE FUNCTIONS.
+
+;;   F
+
+;;    S
+
+		(and (SLOTS_27 ?x1) (MAY_27 ?x1) (DELINEATE_27 ?x1) (FUNCTIONS_27 ?x1))
+
+;;  K
+
+	;; SLOTS CAN BE IN A KB[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (slot_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (KB_27 ?x2) (person_27 ?x3))
+
+;;  K
+
+	;; A LISP[PERSON??] MAY HAVE FUNCTIONS.
+
+;;   F
+
+;;    S
+
+		(and (LISP_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (FUNCTIONS_27 ?x1))
+
+;;  K
+
+	;; PROBLEMS MAY BE DEFINE -ED.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEMS_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (DEFINE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;;  K
+
+	;; PROBLEMS CAN BE MATHEMATICAL.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MATHEMATICAL_27 ?x1))
+
+;; (AND THESE CAN BE USED AS INPUT TO THE SYSTEM WHICH TRIES TO FIND SOLUTIONS TO DIFFERENT FORMALLY
+ SPECIFIED PROBLEMS , THE SPACE OF WHICH IS REPRESENTED BY A CYC BLACKBOARD)
+
+;; E
+
+;;  K
+
+	;; A THING MAY BE USE -ED AS INPUT.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (USE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1) (AS_27 ?x1) (INPUT_27 ?x1))
+
+;;  K
+
+	;; PROBLEMS CAN BE FORMALLY.
+
+;;   F
+
+;;    S
+
+		(and (problem_27 ?x1) (be_27 ?e1 ?x1))
+
+;;  K
+
+	;; PROBLEMS CAN BE SPECIFIED.
+
+;;   F
+
+;;    S
+
+		(and (problem_27 ?x1) (be_27 ?e1 ?x1 ?e2) (specify_27 ?e2 ?x1))
+
+;;  K
+
+	;; A CYC[PERSON??] MAY HAVE A BLACKBOARD.
+
+;;   F
+
+;;    S
+
+		(and (CYC_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (BLACKBOARD_27 ?x1))
+
+;; (SORRY FOR DWEEBING)
+
+;; E
+
+;;  K
+
+	;; A SORRY[PERSON??] CAN BE FOR DWEEBING.
+
+;;   F
+
+;;    S
+
+		(and (SORRY_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1) (for_27 ?x1) (DWEEBING_27 ?x1))
+
+;; (I KNOW THERE 'S A LOT MORE THAT I 'VE BEEN WORKING ON , I JUST CA N'T REMEMBER OFFHAND)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY REMEMBER OFFHAND.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (REMEMBER_27 ?x1) (OFFHAND_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY KNOW.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (KNOW_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY 'VE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_27VE_27 ?x1))
+
+;; (THAT 'S A GOOD USE CASE FOR A PROLOG PROGRAM TO SUMMARIZE WHAT HAS BEEN WORKED ON PREVIOUSLY)
+
+;; E
+
+;;  K
+
+	;; A THING CAN BE A USE CASE.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1 ?x2) (A_27 ?x2) (USE_27 ?x2) (CASE_27 ?x2))
+
+;;  K
+
+	;; A USE CASE CAN BE FOR A PROGRAM.
+
+;;   F
+
+;;    S
+
+		(and (USE_27 ?x1) (CASE_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (program_27 ?x2))
+
+;;  K
+
+	;; A USE CASE CAN BE GOOD.
+
+;;   F
+
+;;    S
+
+		(and (USE_27 ?x1) (CASE_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (GOOD_27 ?x1))
+
+;;  K
+
+	;; A PROGRAM CAN BE PROLOG.
+
+;;   F
+
+;;    S
+
+		(and (PROGRAM_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (PROLOG_27 ?x1))
+
+;; (CHECK OUT PATHFINDER JAVA IF YOU HAVE N'T ALREADY , THE ONE THAT CAN BACKTRACK AND TRY MULTIPLE THINGS)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY HAVE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1))
+
+;;  K
+
+	;; THINGS CAN BE MULTIPLE.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1 ?x2) (MULTIPLE_27 ?x2))

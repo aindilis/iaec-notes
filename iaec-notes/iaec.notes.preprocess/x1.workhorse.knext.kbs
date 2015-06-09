@@ -1,0 +1,695 @@
+;; (STARTING MODMANAGER ... ' `` A FUNNY NAME FOR A SYSTEM WOULD BE IAEC , E.G. \ `` I AM EURISKO CYC \ ''
+ READ \ `` I AM EURISKO , PSYCHE !)
+
+;; E
+
+;;  K
+
+	;; AN |\|E.G._\\\|\\\\\\\\\\\|\||[PERSON??] MAY READ.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_7C_5C_7CE_2EG_2E_5F_5C_5C_5C_7C_5C_5C_5C_5C_5C_5C_5C_5C_5C_5C_5C_7C_5C_7C_7C_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (READ_27 ?x1))
+
+;;  K
+
+	;; A NAME CAN BE IAEC.
+
+;;   F
+
+;;    S
+
+		(and (NAME_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IAEC_27 ?x1))
+
+;;  K
+
+	;; A NAME CAN BE FOR A SYSTEM.
+
+;;   F
+
+;;    S
+
+		(and (NAME_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (SYSTEM_27 ?x2))
+
+;;  K
+
+	;; A NAME CAN BE FUNNY.
+
+;;   F
+
+;;    S
+
+		(and (NAME_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FUNNY_27 ?x1))
+
+;;  K
+
+	;; A PERSON CAN BE AN EURISKO[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AN_27 ?x2) (EURISKO_27 ?x2) (PERSON_27 ?x3))
+
+;; (STARTING MODMANAGER ... ' `` A FUNNY NAME FOR A SYSTEM WOULD BE IAEC , E.G. \ `` I AM EURISKO CYC \ ''
+ READ \ `` I AM EURISKO , PSYCHE !)
+
+;; E
+
+;;  K
+
+	;; AN |\|E.G._\\\|\\\\\\\\\\\|\||[PERSON??] MAY READ.
+
+;;   F
+
+;;    S
+
+		(and (kbs2_kif_quote_7C_5C_7CE_2EG_2E_5F_5C_5C_5C_7C_5C_5C_5C_5C_5C_5C_5C_5C_5C_5C_5C_7C_5C_7C_7C_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (READ_27 ?x1))
+
+;;  K
+
+	;; A NAME CAN BE IAEC.
+
+;;   F
+
+;;    S
+
+		(and (NAME_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IAEC_27 ?x1))
+
+;;  K
+
+	;; A NAME CAN BE FOR A SYSTEM.
+
+;;   F
+
+;;    S
+
+		(and (NAME_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (A_27 ?x2) (SYSTEM_27 ?x2))
+
+;;  K
+
+	;; A NAME CAN BE FUNNY.
+
+;;   F
+
+;;    S
+
+		(and (NAME_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FUNNY_27 ?x1))
+
+;;  K
+
+	;; A PERSON CAN BE AN EURISKO[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AN_27 ?x2) (EURISKO_27 ?x2) (PERSON_27 ?x3))
+
+;; [2]>
+
+;; E
+
+;; [2]>
+
+;; E
+
+;; (`` SEE ABOUT INCORPORATING THE MODEL-BASED PROBLEM SOLVER INTO IAEC '' ' ' `` INTEGRATE MIZAR INTO IAEC
+ '' ' ' `` POSSIBLY USE ACL2 WITH IAEC '' ' ' `` SEE ABOUT INTEGRATING OSCAR INTO IAEC ? '' ' ')
+
+;; E
+
+;;  K
+
+	;; A PROBLEM SOLVER CAN BE INTO IAEC.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (SOLVER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INTO_27 ?x1) (IAEC_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM SOLVER CAN BE MODEL-BASED.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (SOLVER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MODEL-BASED_27 ?x1))
+
+;;  K
+
+	;; AN INTEGRATE_MIZAR[PERSON??] CAN BE INTO AN IAEC[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (INTEGRATE_5FMIZAR_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (INTO_27 ?x1) (AN_27 ?x1) (IAEC_27 ?x1) (PERSON_27 ?x2))
+
+;;  K
+
+	;; USE ACL2 CAN BE WITH IAEC.
+
+;;   F
+
+;;    S
+
+		(and (USE_27 ?x1) (ACL2_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (WITH_27 ?x1) (IAEC_27 ?x1))
+
+;;  K
+
+	;; USE ACL2 CAN BE POSSIBLY.
+
+;;   F
+
+;;    S
+
+		(and (USE_27 ?x1) (ACL2_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (POSSIBLY_27 ?x1))
+
+;; (`` SEE ABOUT INCORPORATING THE MODEL-BASED PROBLEM SOLVER INTO IAEC '' ' ' `` INTEGRATE MIZAR INTO IAEC
+ '' ' ' `` POSSIBLY USE ACL2 WITH IAEC '' ' ' `` SEE ABOUT INTEGRATING OSCAR INTO IAEC ? '' ' ')
+
+;; E
+
+;;  K
+
+	;; A PROBLEM SOLVER CAN BE INTO IAEC.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (SOLVER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INTO_27 ?x1) (IAEC_27 ?x1))
+
+;;  K
+
+	;; A PROBLEM SOLVER CAN BE MODEL-BASED.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (SOLVER_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MODEL-BASED_27 ?x1))
+
+;;  K
+
+	;; AN INTEGRATE_MIZAR[PERSON??] CAN BE INTO AN IAEC[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (INTEGRATE_5FMIZAR_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (INTO_27 ?x1) (AN_27 ?x1) (IAEC_27 ?x1) (PERSON_27 ?x2))
+
+;;  K
+
+	;; USE ACL2 CAN BE WITH IAEC.
+
+;;   F
+
+;;    S
+
+		(and (USE_27 ?x1) (ACL2_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (WITH_27 ?x1) (IAEC_27 ?x1))
+
+;;  K
+
+	;; USE ACL2 CAN BE POSSIBLY.
+
+;;   F
+
+;;    S
+
+		(and (USE_27 ?x1) (ACL2_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (POSSIBLY_27 ?x1))
+
+;; (THIS WAY , THE PROGRAM CAN DIRECT IT 'S EVOLUTION)
+
+;; E
+
+;;  K
+
+	;; A WAY MAY DIRECT AN EVOLUTION.
+
+;;   F
+
+;;    S
+
+		(and (WAY_27 ?x1) (MAY_27 ?x1) (DIRECT_27 ?x1) (AN_27 ?x1) (EVOLUTION_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY HAVE AN EVOLUTION.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (AN_27 ?x1) (EVOLUTION_27 ?x1))
+
+;; (THEN WE CAN SIMULATE EVERYTHING FROM THE STRUCTURE DESCRIBE BY THE TEXT , AS INPUT TO THE PROGRAM FOR
+ TRYING TO EVOLVE PROGRAMS TO SOLVE PROBLEMS)
+
+;; E
+
+;;  K
+
+	;; EVERYTHING MAY DESCRIBE BY A TEXT.
+
+;;   F
+
+;;    S
+
+		(and (EVERYTHING_27 ?x1) (MAY_27 ?x1) (DESCRIBE_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (TEXT_27 ?x2))
+
+;;  K
+
+	;; EVERYTHING CAN BE FROM A STRUCTURE.
+
+;;   F
+
+;;    S
+
+		(and (EVERYTHING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FROM_27 ?x1) (A_27 ?x1) (STRUCTURE_27 ?x1))
+
+;;  K
+
+	;; INPUT CAN BE TO A PROGRAM.
+
+;;   F
+
+;;    S
+
+		(and (input_27 ?x1) (be_27 ?e1 ?x1) (to_27 ?x1 ?x2) (program_27 ?x2))
+
+;; (THEN WE CAN SIMULATE EVERYTHING FROM THE STRUCTURE DESCRIBE BY THE TEXT , AS INPUT TO THE PROGRAM FOR
+ TRYING TO EVOLVE PROGRAMS TO SOLVE PROBLEMS)
+
+;; E
+
+;;  K
+
+	;; EVERYTHING MAY DESCRIBE BY A TEXT.
+
+;;   F
+
+;;    S
+
+		(and (EVERYTHING_27 ?x1) (MAY_27 ?x1) (DESCRIBE_27 ?x1) (by_27 ?x1 ?x2) (A_27 ?x2) (TEXT_27 ?x2))
+
+;;  K
+
+	;; EVERYTHING CAN BE FROM A STRUCTURE.
+
+;;   F
+
+;;    S
+
+		(and (EVERYTHING_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (FROM_27 ?x1) (A_27 ?x1) (STRUCTURE_27 ?x1))
+
+;;  K
+
+	;; INPUT CAN BE TO A PROGRAM.
+
+;;   F
+
+;;    S
+
+		(and (input_27 ?x1) (be_27 ?e1 ?x1) (to_27 ?x1 ?x2) (program_27 ?x2))
+
+;; [2]>
+
+;; E
+
+;; [2]>
+
+;; E
+
+;; [2]>
+
+;; E
+
+;; (`` IAEC AND THINKER ARE SIMILAR)
+
+;; E
+
+;;  K
+
+	;; AN IAEC_AND_THINKER[PERSON??] CAN BE SIMILAR.
+
+;;   F
+
+;;    S
+
+		(and (IAEC_5FAND_5FTHINKER_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (SIMILAR_27 ?x1))
+
+;; (`` IAEC AND THINKER ARE SIMILAR)
+
+;; E
+
+;;  K
+
+	;; AN IAEC_AND_THINKER[PERSON??] CAN BE SIMILAR.
+
+;;   F
+
+;;    S
+
+		(and (IAEC_5FAND_5FTHINKER_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (SIMILAR_27 ?x1))
+
+;; (`` I WONDER IF WE COULD USE UNILANG AS THE RECORD FOR IAEC , AND HAVE IT FILL OUT THINGS AND
+ OBSERVATIONS , JUST AS I DO , WITH PROVENANCE INFORMATION PROVIDED)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY WONDER.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (WONDER_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY USE AN UNILANG[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (AN_27 ?x1) (UNILANG_27 ?x1) (PERSON_27 ?x2))
+
+;;  K
+
+	;; A RECORD CAN BE FOR AN IAEC[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (record_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (IAEC_27 ?x2) (PERSON_27 ?x3))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY FILL_OUT THINGS.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (FILL_5FOUT_27 ?x1) (THINGS_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY DO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1))
+
+;;  K
+
+	;; PROVENANCE INFORMATION MAY BE PROVIDE -ED.
+
+;;   F
+
+;;    S
+
+		(and (PROVENANCE_27 ?x1) (INFORMATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (PROVIDE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (`` I WONDER IF WE COULD USE UNILANG AS THE RECORD FOR IAEC , AND HAVE IT FILL OUT THINGS AND
+ OBSERVATIONS , JUST AS I DO , WITH PROVENANCE INFORMATION PROVIDED)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY WONDER.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (WONDER_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY USE AN UNILANG[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (AN_27 ?x1) (UNILANG_27 ?x1) (PERSON_27 ?x2))
+
+;;  K
+
+	;; A RECORD CAN BE FOR AN IAEC[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (record_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (IAEC_27 ?x2) (PERSON_27 ?x3))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY FILL_OUT THINGS.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (FILL_5FOUT_27 ?x1) (THINGS_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY DO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1))
+
+;;  K
+
+	;; PROVENANCE INFORMATION MAY BE PROVIDE -ED.
+
+;;   F
+
+;;    S
+
+		(and (PROVENANCE_27 ?x1) (INFORMATION_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (PROVIDE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (`` JUST AS IN HOW I WOULD DEFINE THINGS THAT I HAD N'T SEEN VERY OFTEN BY REMEMBERING ALL THE BINDINGS
+ OR EXAMPLES OF THEIR USE , NLU\/IAEC\/SAYER2 SHOULD REMEMBER ALL INVOCATIONS OF TEXT \/ DATA IN CONTEXT)
+
+;; E
+
+;;  K
+
+	;; NLU\/IAEC\/SAYER2 MAY REMEMBER SOME_NUMBER_OF INVOCATIONS OF TEXT \/ DATA.
+
+;;   F
+
+;;    S
+
+		(and (NLU_5C_2FIAEC_5C_2FSAYER2_27 ?x1) (MAY_27 ?x1) (REMEMBER_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (INVOCATIONS_27 ?x1) (of_27 ?x1 ?x2) (TEXT_27 ?x2) (kbs2_kif_quote_5C_2F_27 ?x2) (DATA_27 ?x2))
+
+;;  K
+
+	;; A PERSON MAY DEFINE THINGS A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (DEFINE_27 ?x1) (THINGS_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; A USE MAY UNDERGO BINDINGS.
+
+;;   F
+
+;;    S
+
+		(and (USE_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (BINDINGS_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE A USE.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (USE_27 ?x1))
+
+;;  K
+
+	;; TEXT \/ DATA MAY UNDERGO INVOCATIONS.
+
+;;   F
+
+;;    S
+
+		(and (TEXT_27 ?x1) (DATA_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (INVOCATIONS_27 ?x1))
+
+;; (`` JUST AS IN HOW I WOULD DEFINE THINGS THAT I HAD N'T SEEN VERY OFTEN BY REMEMBERING ALL THE BINDINGS
+ OR EXAMPLES OF THEIR USE , NLU\/IAEC\/SAYER2 SHOULD REMEMBER ALL INVOCATIONS OF TEXT \/ DATA IN CONTEXT)
+
+;; E
+
+;;  K
+
+	;; NLU\/IAEC\/SAYER2 MAY REMEMBER SOME_NUMBER_OF INVOCATIONS OF TEXT \/ DATA.
+
+;;   F
+
+;;    S
+
+		(and (NLU_5C_2FIAEC_5C_2FSAYER2_27 ?x1) (MAY_27 ?x1) (REMEMBER_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (INVOCATIONS_27 ?x1) (of_27 ?x1 ?x2) (TEXT_27 ?x2) (kbs2_kif_quote_5C_2F_27 ?x2) (DATA_27 ?x2))
+
+;;  K
+
+	;; A PERSON MAY DEFINE THINGS A PROPOSITION.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (DEFINE_27 ?x1) (THINGS_27 ?x1) (proposition_27 ?x1))
+
+;;  K
+
+	;; A USE MAY UNDERGO BINDINGS.
+
+;;   F
+
+;;    S
+
+		(and (USE_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (BINDINGS_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE A USE.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (USE_27 ?x1))
+
+;;  K
+
+	;; TEXT \/ DATA MAY UNDERGO INVOCATIONS.
+
+;;   F
+
+;;    S
+
+		(and (TEXT_27 ?x1) (DATA_27 ?x1) (MAY_27 ?x1) (UNDERGO_27 ?x1) (INVOCATIONS_27 ?x1))
+
+;; [2]>
+
+;; E
+
+;; [2]>
+
+;; E
+
+;; (`` SEE IF YOU CAN TAKE GIT VERSION HISTORIES , AND TRY TO PREDICT WHAT SHOULD BE ADDED TO CODE ON THE
+ BASIS OF THIS)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY TAKE GIT VERSION HISTORIES.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (TAKE_27 ?x1) (GIT_27 ?x1) (VERSION_27 ?x1) (HISTORIES_27 ?x1))
+
+;;  K
+
+	;; A THING MAY HAVE A BASIS.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (BASIS_27 ?x1))
+
+;; (`` SEE IF YOU CAN TAKE GIT VERSION HISTORIES , AND TRY TO PREDICT WHAT SHOULD BE ADDED TO CODE ON THE
+ BASIS OF THIS)
+
+;; E
+
+;;  K
+
+	;; A PERSON MAY TAKE GIT VERSION HISTORIES.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (TAKE_27 ?x1) (GIT_27 ?x1) (VERSION_27 ?x1) (HISTORIES_27 ?x1))
+
+;;  K
+
+	;; A THING MAY HAVE A BASIS.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (BASIS_27 ?x1))

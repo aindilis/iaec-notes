@@ -1,0 +1,829 @@
+;; (-LRB- WE WANT TO RECORD THE TIME OF ASSERTIONS INTO THE KB , RECORD EACH ASSERTION AS A DISTINCT EVENT ,
+ MAYBE ALSO THE TIME OF RETRIEVALS -RRB- -LRB- SO WHAT ARE THE USE CASES)
+
+;; E
+
+;;  K
+
+	;; AN EVENT CAN BE DISTINCT.
+
+;;   F
+
+;;    S
+
+		(and (EVENT_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (DISTINCT_27 ?x1))
+
+;; (FOR INSTANCE , IF THERE ARE TWO STRINGS IN THE KB , ONE $ A = `` DFKSJLJDF ... '' , AND ANOTHER $ B = ``
+ DFKSJ '' , YOU COULD REPRESENT B WITH -LRB- SUBSTR A 0 5 -RRB- IN THE KB)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF STRINGS MAY DFKSJLJD.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (STRINGS_27 ?x1) (MAY_27 ?x1) (DFKSJLJD_27 ?x1))
+
+;;  K
+
+	;; SOME_NUMBER_OF STRINGS CAN BE IN A KB[PERSON??].
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (STRINGS_27 ?x1) (be_27 ?e1 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (KB_27 ?x2) (person_27 ?x3))
+
+;; (COMPUTE MINIMAL EXPRESSIONS)
+
+;; E
+
+;;  K
+
+	;; EXPRESSIONS CAN BE MINIMAL.
+
+;;   F
+
+;;    S
+
+		(and (expression_27 ?x1) (be_27 ?e1 ?x1 ?x2) (MINIMAL_27 ?x2))
+
+;; (I.E. FUNCTIONS THAT COMPUTE VALUES IN THE BASE)
+
+;; E
+
+;;  K
+
+	;; FUNCTIONS MAY VALUE IN A BASE.
+
+;;   F
+
+;;    S
+
+		(and (function_27 ?x1) (MAY_27 ?x1) (VALUE_27 ?x1) (in_27 ?x1 ?x2) (A_27 ?x2) (BASE_27 ?x2))
+
+;;  K
+
+	;; FUNCTIONS CAN BE I.E..
+
+;;   F
+
+;;    S
+
+		(and (function_27 ?x1) (be_27 ?e1 ?x1 ?x2) (I_2EE_2E_2E_27 ?x2))
+
+;; (THE FUNCTIONS REQUIRE THEIR DEFINITIONS)
+
+;; E
+
+;;  K
+
+	;; FUNCTIONS MAY REQUIRE DEFINITIONS.
+
+;;   F
+
+;;    S
+
+		(and (function_27 ?x1) (MAY_27 ?x1) (REQUIRE_27 ?x1) (DEFINITIONS_27 ?x1))
+
+;;  K
+
+	;; INDIVIDUAL -S MAY HAVE DEFINITIONS.
+
+;;   F
+
+;;    S
+
+		(and (INDIVIDUAL_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (DEFINITIONS_27 ?x1))
+
+;; (SO USE THE INDEXED FUNCTIONS THAT ARE KNOWN TO BE DETERMINIMISTIC TO DO THIS)
+
+;; E
+
+;;  K
+
+	;; FUNCTIONS CAN BE INDEXED.
+
+;;   F
+
+;;    S
+
+		(and (function_27 ?x1) (be_27 ?e1 ?x1 ?x2) (INDEXED_27 ?x2))
+
+;; (NEED PROCESSES WHICH TRY TO NOTICE THINGS ABOUT DATA)
+
+;; E
+
+;;  K
+
+	;; A NEED[PERSON??] MAY PROCESS.
+
+;;   F
+
+;;    S
+
+		(and (NEED_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (PROCESS_27 ?x1))
+
+;; (THIS IS THE IAEC AND INTERESTINGNESS CRITERIA)
+
+;; E
+
+;;  K
+
+	;; A THING CAN BE CRITERIA.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (CRITERIA_27 ?x1))
+
+;;  K
+
+	;; CRITERIA CAN BE IAEC.
+
+;;   F
+
+;;    S
+
+		(and (CRITERIA_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (IAEC_27 ?x1))
+
+;; (USE THE EVOLUTIONARY PROGRAMMING , OR HOW DO WE COMPUTE THESE THINGS ?)
+
+;; E
+
+;;  K
+
+	;; A PROGRAMMING CAN BE EVOLUTIONARY.
+
+;;   F
+
+;;    S
+
+		(and (programming_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (EVOLUTIONARY_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY COMPUTE THINGS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (COMPUTE_27 ?x1) (THINGS_27 ?x1))
+
+;; (-LRB- COMPUTE SUCCIENT DESCRIPTIONS OF TEXT - THIS IS COMPRESSION - FUNCTIONAL COMPRESSION ?)
+
+;; E
+
+;;  K
+
+	;; A THING CAN BE COMPRESSION.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (be_27 ?e1 ?x1 ?x2) (COMPRESSION_27 ?x2))
+
+;;  K
+
+	;; DESCRIPTIONS CAN BE CONSTITUTED_OF_OR_FILLED_WITH TEXT.
+
+;;   F
+
+;;    S
+
+		(and (description_27 ?x1) (be_27 ?e1 ?x1 ?x2) (CONSTITUTED_5FOF_5FOR_5FFILLED_5FWITH_27 ?x2) (TEXT_27 ?x2))
+
+;;  K
+
+	;; DESCRIPTIONS CAN BE SUCCIENT.
+
+;;   F
+
+;;    S
+
+		(and (description_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SUCCIENT_27 ?x2))
+
+;; (- MOST ELOQUENT DESCRIPTION IS UNDECIDABLE IN GENERAL)
+
+;; E
+
+;;  K
+
+	;; A DESCRIPTION CAN BE ELOQUENT.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ELOQUENT_27 ?x1))
+
+;; (-LRB- HAVE FUNCTIONS DESCRIBE NOT ONLY `` TEXT '' BUT ALSO ARBITRARY DATA STRUCTURES AND CODE)
+
+;; E
+
+;;  K
+
+	;; DATA STRUCTURES CAN BE ARBITRARY.
+
+;;   F
+
+;;    S
+
+		(and (DATA_27 ?x1) (STRUCTURES_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (ARBITRARY_27 ?x1))
+
+;; (-LRB- DO WE USE HEURISTICS ? -RRB-)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY USE HEURISTICS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (USE_27 ?x1) (HEURISTICS_27 ?x1))
+
+;; (MAYBE A PLANNER COULD BE USED)
+
+;; E
+
+;;  K
+
+	;; A PLANNER MAY BE USE -ED.
+
+;;   F
+
+;;    S
+
+		(and (PLANNER_27 ?x1) (MAY_27 ?x1) (BE_27 ?x1) (USE_27 ?x1) (kbs2_kif_quote_2DED_27 ?x1))
+
+;; (-LRB- WE REALLY WANT A MASTER CONTROL PROGRAM TYPE THING TO INDEX ALL FUNCTIONS)
+
+;; E
+
+;;  K
+
+	;; A MASTER CONTROL PROGRAM TYPE THING CAN BE TO INDEX.
+
+;;   F
+
+;;    S
+
+		(and (MASTER_27 ?x1) (CONTROL_27 ?x1) (PROGRAM_27 ?x1) (TYPE_27 ?x1) (THING_27 ?x1) (be_27 ?e1 ?x1) (to_27 ?x1 ?x2) (INDEX_27 ?x2))
+
+;; (PROBLEM BECOMES HOW TO REPRESENT THEM THAT HAVE COMPLEX DEPENDENCIES , LIKE AS IN OBJECT ORIENTED CODE)
+
+;; E
+
+;;  K
+
+	;; DEPENDENCIES CAN BE COMPLEX.
+
+;;   F
+
+;;    S
+
+		(and (dependency_27 ?x1) (be_27 ?e1 ?x1 ?x2) (COMPLEX_27 ?x2))
+
+;; (-LRB- SOLUTION -LRB- MAYBE COULD HAVE INITIALIZATION AND DESTRUCTION FUNCTIONS , LIKE FOR INSTANCE ,
+ LAUNCHING UNILANG AS NEEDED FOR AGENT CODE TO EXECUTE)
+
+;; E
+
+;;  K
+
+	;; SOLUTION MAY NEED FOR AGENT CODE.
+
+;;   F
+
+;;    S
+
+		(and (SOLUTION_27 ?x1) (MAY_27 ?x1) (NEED_27 ?x1) (for_27 ?x1 ?x2) (AGENT_27 ?x2) (CODE_27 ?x2))
+
+;;  K
+
+	;; SOLUTION MAY LAUNCH.
+
+;;   F
+
+;;    S
+
+		(and (SOLUTION_27 ?x1) (MAY_27 ?x1) (LAUNCH_27 ?x1))
+
+;; (EXECUTION PRECONDITIONS)
+
+;; E
+
+;;  K
+
+	;; EXECUTION MAY PRECONDITION.
+
+;;   F
+
+;;    S
+
+		(and (EXECUTION_27 ?x1) (MAY_27 ?x1) (PRECONDITION_27 ?x1))
+
+;; (THINK VAGRANT AND VMS)
+
+;; E
+
+;;  K
+
+	;; THINK MAY VAGRANT.
+
+;;   F
+
+;;    S
+
+		(and (think_27 ?e1 ?x1) (MAY_27 ?x1) (VAGRANT_27 ?x1))
+
+;; (THINK VAGRANT AND VMS)
+
+;; E
+
+;;  K
+
+	;; THINK MAY VAGRANT.
+
+;;   F
+
+;;    S
+
+		(and (think_27 ?e1 ?x1) (MAY_27 ?x1) (VAGRANT_27 ?x1))
+
+;; (SO WE MUST TAKE INTO ACCOUNT AND SAY THE SHORTED NON-EQUIVALENT DESCRIPTION)
+
+;; E
+
+;;  K
+
+	;; PERSON -S MAY TAKE INTO ACCOUNT.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (TAKE_27 ?x1) (INTO_27 ?x1) (ACCOUNT_27 ?x1))
+
+;;  K
+
+	;; A DESCRIPTION CAN BE SHORTED.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (SHORTED_27 ?x2))
+
+;;  K
+
+	;; A DESCRIPTION CAN BE NON-EQUIVALENT.
+
+;;   F
+
+;;    S
+
+		(and (DESCRIPTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (NON-EQUIVALENT_27 ?x1))
+
+;; (MAYBE WE CAN LIST ALL EQUIVALENT DESCRIPTIONS , AND HAVE AN INTERESTINGNESS FACTOR)
+
+;; E
+
+;;  K
+
+	;; AN AND[PERSON??] MAY HAVE A FACTOR.
+
+;;   F
+
+;;    S
+
+		(and (and_27 ?x1 ?x2) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (factor_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY LIST SOME_NUMBER_OF EQUIVALENT DESCRIPTIONS.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (LIST_27 ?x1) (SOME_5FNUMBER_5FOF_27 ?x1) (EQUIVALENT_27 ?x1) (DESCRIPTIONS_27 ?x1))
+
+;;  K
+
+	;; A FACTOR CAN BE INTERESTINGNESS.
+
+;;   F
+
+;;    S
+
+		(and (FACTOR_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (INTERESTINGNESS_27 ?x1))
+
+;; (-LRB- NOTE THAT I 'VE BEEN HEAVILY DISTRACTED YESTERDAY AND TODAY SO I 'VE LOST A LOT OF THE
+ UNDERSTANDING REGARDING THE POINT OF ALL THIS , WHICH IS UNFORTUNATE : HENCE THESE WRITINGS ARE
+ UNUSUALLY MURKY : IT WOULD BE WORTH GETTING ANSWERS TO THESE QUESTIONS AND RECORDING THEM IN THE AI)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE WORTH.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (WORTH_27 ?x1))
+
+;;  K
+
+	;; A PERSON MAY 'VE.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_27VE_27 ?x1))
+
+;;  K
+
+	;; A THING MAY HAVE A POINT.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (POINT_27 ?x1))
+
+;;  K
+
+	;; WRITINGS CAN BE MURKY.
+
+;;   F
+
+;;    S
+
+		(and (WRITINGS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (MURKY_27 ?x1))
+
+;; (THE AI HAVING THE ABILITY TO ANSWER THEM IS IMPORTANT TOO)
+
+;; E
+
+;;  K
+
+	;; AN AI[PERSON??] CAN BE IMPORTANT.
+
+;;   F
+
+;;    S
+
+		(and (AI_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (IMPORTANT_27 ?x1))
+
+;; (THIS IS HELPING ME TO REMEMBER : \/ VAR\/LIB\/RELEASE-HELPER \/ VERSIONS\/1\/REQUIREMENTS \/ TO)
+
+;; E
+
+;;  K
+
+	;; \/ CAN BE VERSIONS\/1\/REQUIREMENTS.
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (versions-SLASH--NUMBER--SLASH-requirement_27 ?x1))
+
+;; (DO ; ; -LRB- SUPPOSE THERE IS A LISP FUNCTION WITHOUT SIDE EFFECTS THAT IS ; ; F -LRB- X1 , X2 , ... ,
+ XN -RRB- = Y. AND SUPPOSE WE HAVE MEMOIZED A PARTICULAR ; ; VALUE FOR Y. Y COULD BE ANY LISP DATA
+ STRUCTURE OR FUNCTION)
+
+;; E
+
+;;  K
+
+	;; A SUPPOSE[PERSON??] CAN BE LISP FUNCTION.
+
+;;   F
+
+;;    S
+
+		(and (SUPPOSE_27 ?x1) (person_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (be_27 ?e1 ?x1) (LISP_27 ?x1) (FUNCTION_27 ?x1))
+
+;;  K
+
+	;; A LISP FUNCTION CAN BE WITHOUT SIDE EFFECTS.
+
+;;   F
+
+;;    S
+
+		(and (LISP_27 ?x1) (FUNCTION_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (WITHOUT_27 ?x1) (SIDE_27 ?x1) (EFFECTS_27 ?x1))
+
+;;  K
+
+	;; VALUE CAN BE FOR Y. Y.
+
+;;   F
+
+;;    S
+
+		(and (VALUE_27 ?x1) (be_27 ?e1 ?x1) (for_27 ?x1 ?x2) (Y_2E_27 ?x2) (Y_27 ?x2))
+
+;; (HRM , CA N'T REMEMBER)
+
+;; E
+
+;;  K
+
+	;; A HRM[PERSON??] MAY REMEMBER.
+
+;;   F
+
+;;    S
+
+		(and (HRM_27 ?x1) (PERSON_27 ?x2))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (REMEMBER_27 ?x1))
+
+;; (I KNOW IT 'S VERY ; ; USEFUL)
+
+;; E
+
+;;  K
+
+	;; A THING-REFERRED-TO CAN BE VERY.
+
+;;   F
+
+;;    S
+
+		(and (thing-referred-to_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (VERY_27 ?x2))
+
+;; (I AM NOT ; ; SURE HOW THIS WORKS OR IF IT WORKS EXACTLY , MAYBE THERE IS ; ; ADDITIONAL WORK ON IT)
+
+;; E
+
+;;  K
+
+	;; A THING MAY WORK.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (WORK_27 ?x1))
+
+;;  K
+
+	;; A THING-REFERRED-TO MAY WORK.
+
+;;   F
+
+;;    S
+
+		(and (THING-REFERRED-TO_27 ?x1) (MAY_27 ?x1) (WORK_27 ?x1))
+
+;; (; ; -LRB- ONE THING WE CAN DO IS RECORD , USING SAYER2 , EXAMPLES OF ARGS TO ; ; THE FUNCTION WHICH
+ RESULTED IN THE RESULT VALUE , KINDA LIKE AM ; ; DOES)
+
+;; E
+
+;;  K
+
+	;; A |\|;\||[PERSON??] MAY DO.
+
+;;   F
+
+;;    S
+
+		( (person_27 ?x1))
+
+;;   F
+
+;;    S
+
+		(and (MAY_27 ?x1) (DO_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY DO.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (DO_27 ?x1))
+
+;; (; ; -LRB- WHOLE POINT OF THIS IS TO PROVE RESULTS TO DIFFERENT QUESTIONS ; ; THAT ARE FACING US - TO
+ HAVE KNOWLEDGE ABOUT SOLUTIONS TO ; ; PROBLEMS)
+
+;; E
+
+;;  K
+
+	;; A THING MAY FACE PERSON -S.
+
+;;   F
+
+;;    S
+
+		(and (th_27 ?e1 ?x1) (MAY_27 ?x1) (FACE_27 ?x1) (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1))
+
+;; (-LRB- WELL FOR INSTANCE , TO QUESTIONS LIKE THIS)
+
+;; E
+
+;;  K
+
+	;; QUESTIONS MAY LIKE A THING.
+
+;;   F
+
+;;    S
+
+		(and (QUESTIONS_27 ?x1) (MAY_27 ?x1) (LIKE_27 ?x1) (A_27 ?x1) (thing_27 ?x1))
+
+;; (SOME EXAMPLES WOULD BE LIKE ; ; RUNTIME , ANY OTHER STATICALLY ANALYZABLE PROPERTIES)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF EXAMPLES CAN BE LIKE.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (EXAMPLES_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (LIKE_27 ?x1))
+
+;;  K
+
+	;; A STATICALLY MAY ANALYZABLE PROPERTIES.
+
+;;   F
+
+;;    S
+
+		(and (STATICALLY_27 ?x1) (MAY_27 ?x1) (ANALYZABLE_27 ?x1) (PROPERTIES_27 ?x1))
+
+;; (ALL OF THIS ; ; WILL GO INTO AUTOMATED PROGRAM COMPOSITION STUFF)
+
+;; E
+
+;;  K
+
+	;; SOME_NUMBER_OF THING OF A THING MAY STUFF.
+
+;;   F
+
+;;    S
+
+		(and (SOME_5FNUMBER_5FOF_27 ?x1) (thing_27 ?x1) (of_27 ?x1 ?x2) (thing_27 ?x2) (MAY_27 ?x2) (STUFF_27 ?x2))
+
+;;  K
+
+	;; A THING MAY HAVE A THING.
+
+;;   F
+
+;;    S
+
+		(and (thing_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (thing_27 ?x1))
+
+;;  K
+
+	;; A PROGRAM COMPOSITION CAN BE AUTOMATED.
+
+;;   F
+
+;;    S
+
+		(and (PROGRAM_27 ?x1) (COMPOSITION_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AUTOMATED_27 ?x2))
+
+;; (; ; -LRB- WHAT IS THE POINT OF AUTOMATED PROGRAM COMPOSITION ?)
+
+;; E
+
+;;  K
+
+	;; A PROGRAM COMPOSITION CAN BE AUTOMATED.
+
+;;   F
+
+;;    S
+
+		(and (PROGRAM_27 ?x1) (COMPOSITION_27 ?x1) (CAN_27 ?x1) (be_27 ?e1 ?x1 ?x2) (AUTOMATED_27 ?x2))
+
+;; (; ; -LRB- TO LAY THE CONTEXT OF A PROBLEM DOWN , AS MAPPED FROM TEXT AND ; ; SO ON - THE WORLD STATE
+ MONITOR , TO DERIVE SOLUTIONS TO FORMALLY ; ; SPECIFIABLE PROBLEMS)
+
+;; E
+
+;;  K
+
+	;; A WORLD STATE MAY MONITOR.
+
+;;   F
+
+;;    S
+
+		(and (WORLD_27 ?x1) (STATE_27 ?x1) (MAY_27 ?x1) (MONITOR_27 ?x1))
+
+;; (THESE PROBLEMS CONSTITUTE THE FRONTIER ; ; SURFACE OF OUR PROBLEM SOLVING SYSTEM , AND THE GOAL IS TO ;
+ ; IDENTIFY RELEVANT PROBLEMS , AS INDEXED BY DIFFERENT USERS , AND ; ; STRUGGLE TO FIND THE SOLUTION TO
+ THEM)
+
+;; E
+
+;;  K
+
+	;; PROBLEMS MAY CONSTITUTE A FRONTIER.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEMS_27 ?x1) (MAY_27 ?x1) (constitute_27 ?e1 ?x1 ?x2) (A_27 ?x2) (FRONTIER_27 ?x2))
+
+;;  K
+
+	;; A PROBLEM MAY SOLVE SYSTEM.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEM_27 ?x1) (MAY_27 ?x1) (SOLVE_27 ?x1) (SYSTEM_27 ?x1))
+
+;;  K
+
+	;; PERSON -S MAY HAVE A PROBLEM.
+
+;;   F
+
+;;    S
+
+		(and (PERSON_27 ?x1) (kbs2_kif_quote_2DS_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (A_27 ?x1) (PROBLEM_27 ?x1))
+
+;;  K
+
+	;; PROBLEMS CAN BE RELEVANT.
+
+;;   F
+
+;;    S
+
+		(and (PROBLEMS_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (RELEVANT_27 ?x1))
+
+;; (GZ -RRB- ?)
+
+;; E
+
+;;  K
+
+	;; AN ENTITY MAY -RRB.
+
+;;   F
+
+;;    S
+
+		(and (ENTITY_27 ?x1) (MAY_27 ?x1) (kbs2_kif_quote_2DRRB_27 ?x1))

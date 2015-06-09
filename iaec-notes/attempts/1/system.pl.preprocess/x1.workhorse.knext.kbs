@@ -1,0 +1,39 @@
+;; *** - READ from #<INPUT CONCATENATED-STREAM #<INPUT STRING-INPUT-STREAM> #<IO TERMINAL-STREAM>>: an
+      object cannot start with #\)
+The following restarts are available:
+ABORT          :R1      Abort main loop
+Break 1 [4]>
+
+;; E
+
+;; *** - READ from #<INPUT CONCATENATED-STREAM #<INPUT STRING-INPUT-STREAM> #<IO TERMINAL-STREAM>>: an
+      object cannot start with #\)
+The following restarts are available:
+ABORT          :R1      Abort main loop
+Break 1 [4]>
+
+;; E
+
+;; (# LOOK AT ` ART OF THE METAOBJECT PROTOCOL ')
+
+;; E
+
+;;  K
+
+	;; A PROTOCOL MAY HAVE ART.
+
+;;   F
+
+;;    S
+
+		(and (PROTOCOL_27 ?x1) (MAY_27 ?x1) (HAVE_27 ?x1) (ART_27 ?x1))
+
+;;  K
+
+	;; A PROTOCOL CAN BE METAOBJECT.
+
+;;   F
+
+;;    S
+
+		(and (PROTOCOL_27 ?x1) (CAN_27 ?x1) (BE_27 ?x1) (METAOBJECT_27 ?x1))

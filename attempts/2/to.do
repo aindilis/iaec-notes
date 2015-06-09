@@ -1,0 +1,65 @@
+To me the distinction between a priori and a posteriori knowledge
+seems fake.  For instance, with a four sided square - how is it
+that we come to understand what a square is in the first place.
+It is through our senses.  I feel as though I'm reverting on the
+position I took against dfontaine on this a long time ago.
+Anyway, suppose you have a learner, and they kind of develop IF X
+THEN Y kind of knowledge.  WHen these conditions obtain, this
+follows.  That is elucidated and elongated through experience to
+develop all the different models of language and thought.  So,
+embodiment, it would seem, may be key to learning.
+
+Think how IAEC might do this.  
+
+It looks for features in the input, and then for features in the
+output, and sees whether it can establish any IF X THEN Y rules,
+where X and Y are lists of predicates, for instance.  It then
+looks at it's rules, and attempts to modify them to explain
+future evidence that contradicts the rules.
+
+You could use this to predict features of the sentences that
+follow all preceding sentences in texts.
+
+You could also have, in addition to programs that function as
+predicates to learn preconditions and effects from, you could
+also have a set of programs that function as learning algorithms.
+They would seem to be some kind of function mapping input
+features to output features.
+
+Furthermore, we could index all available functions that we have,
+like master control program, and run them, timing them out as
+needed, recording which take two long, etc.  Or maybe, we could
+compute a measure of usefulness versus runtime for the functions.
+We would have to learn which learners work well.
+
+Also, we control some actions that can be performed on the world,
+we can learn preconditions, action, postconditions rules, and use
+this to experiment in controlled settings.  For instance, an NN
+could try to learn a checkboard pattern, and when trained on it,
+it comes off resembling it with errors around the corners, well,
+by focusing on that input, the checkboard, we could walk away
+with smaller margins of error.
+
+Need to look at CS as a continuation of this precondition /
+postcondition features learning model.  All that is written, it
+is still presumption.  When a programmer writes code to solve a
+problem, he is working with making the inputs appear to coincide,
+and then the outputs coincide with his expectations.
+
+Perhaps, what we can do, is to index all known learning
+functions, make an ontology of them, and have them work in this
+case.
+
+Also, when we act, we are subject to sanctions imposed by other
+agents, which we perceive according to innate mechanisms.  So for
+instance, you do something wrong and you are subjected
+intentionally to an experience that is intended to be
+displeasurable, to cause you to avoid doing it in the future.  We
+learn according to this training imposed on us.
+
+Develop a system that predicts which words will be in the next
+sentence, trained on all sentences.  Seems like a markov chain
+but for sentences, not words.
+
+(comment Sat Mar 21 02:59:43 CDT 2015
+ (see https://github.com/chetan51/linguist))
