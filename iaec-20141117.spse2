@@ -1,0 +1,12 @@
+Read about IAEC, and specifically, Mizar integration - with a view to
+incorporating MIZAR TSTP / TPTP and all that work that was done,
+download and package it.  Then use MIZAR in combination with AGInT,
+and AM-UTexas, to expand the space of proven answers.  And then
+formalize the text books into CycL, and have it talk with MIZAR, the
+textbooks of Papadimitrious and MIT Intro to Algs.  And then, use it
+to prove the correctness of algorithms inside of CycL/MIZAR, and use
+this in program understanding in order to dynamically compose
+algorithms that solve specified problems.  This is important in the
+task of, hrm, forget why I wanted to do that.  Develop database of
+problems and prove solutions to them.  Maximize FRD this way.  Index
+known problems.  Increase proof theoretic abilities.
